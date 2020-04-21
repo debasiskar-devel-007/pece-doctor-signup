@@ -1,5 +1,5 @@
 {
-  "name": "dna-frontend",
+  "name": "pece-doctor-signup",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -52,6 +52,7 @@
     "domino": "^2.1.3",
     "express": "^4.15.2",
     "hammerjs": "^2.0.8",
+    "listing-angular7": "^0.1.5",
     "moment": "^2.24.0",
     "ngx-bootstrap": "^5.5.0",
     "ngx-clipboard": "^13.0.0",
