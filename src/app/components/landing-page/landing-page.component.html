@@ -1,0 +1,612 @@
+<mat-toolbar class="land_top_header">
+    <button mat-button>Early Detection</button>
+    <button mat-button>Risk Factors</button>
+    <button mat-button>Symptoms Checklist</button>
+    <button mat-button>Additional Testing</button>
+    <button mat-button>How PECE Works</button>
+    <button mat-button>Sample Reports</button>
+    <button mat-button>Physician Taxonomies</button>
+    <button mat-button>Doctor Recommendation</button>
+</mat-toolbar>
+
+
+<mat-toolbar class="ats_top container">
+    <p>ADVANCED ANS TECHNOLOGY – BETTER PATIENT CARE – INCREASE PRACTICE REVENUE </p>
+</mat-toolbar>
+
+
+<mat-card class="fr_wrpr">
+    <mat-card-content class="inner_wrapper">
+        <mat-card-content class="l_er">
+            <span class="flx_wrapper">
+                <mat-card-content class="in_left">
+                    <img src="../../../assets/images/dcsLogo.png">
+                </mat-card-content>
+                <mat-card-content class="in_right">
+                    <mat-card-title class="top_title">
+                        PHYSICIANS AND DOCTORS, <br>
+                        WE ARE PROUD TO BE <br>
+                        OFFERING A NEW MEDICAL <br>
+                        DEVICE AND TESTING <br>
+                        SOLUTION THROUGH OUR <br>
+                        DIAGNOSTIC CENTER <br>
+                    </mat-card-title>
+
+                    <mat-card-subtitle class="subtitle">
+                        OBTAIN BETTER DATA <br>
+                        ON YOUR PATIENT <br>
+                        POPULATION RIGHT AWAY!! <br>
+
+                    </mat-card-subtitle>
+
+                    <p class="paragraph">The RM-3A Scan will give you <span>ACTIONABLE <br> DATA</span> to take better
+                        care
+                        of your patients. <br>
+                        This is Good Medicine and will fit right in with <br> the test ordering and referral protocols
+                        with
+                        our <br>
+                        Diagnostic Center.
+                    </p>
+
+                </mat-card-content>
+            </span>
+            <button mat-button class="arrow_bg">The Advanced Wellness Solutions Smart Engagement <br>
+                Form Technology will transform your practice!
+            </button>
+
+
+        </mat-card-content>
+
+
+        <mat-card-content class="r_er" #target>
+            <section class="form_wrapper">
+                <mat-card-title class="form_title">Please complete the form</mat-card-title>
+                <mat-card-subtitle class="form_subtitle"> below to sign up and access your own Doctor’s Portal in the
+                    back-office of our Virtual Program.
+                    You can refer your patients for the RM-3A Test and review the reports of the patient test in one
+                    place.form below to sign up and access your own Doctor’s Portal in the back-office of our Virtual
+                    Program. You can refer your patients for the
+                    RM-3A Test and review the reports of the
+                    patient test in one place.
+                </mat-card-subtitle>
+
+                <form class="m_form">
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="First Name:"> 
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Last Name:">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="email" [formControl]="email" placeholder="Email:">
+                        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                     </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Phone Number:">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="NPI:">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Address:">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="State:">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="City:">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Zip:">
+                    </mat-form-field>
+
+
+                    <button mat-button>submit</button>
+                </form>
+
+
+            </section>
+        </mat-card-content>
+    </mat-card-content>
+</mat-card>
+<!-- end top part -->
+
+<mat-card class="bg_video_wrapper">
+    <mat-card-content class="video_gallery">
+        <mat-card-content class="in_video_wrp_l">
+            <mat-card-title class="video_title"> watch this video! </mat-card-title>
+
+            <mat-card-content class="video_con">
+                <iframe  src="https://www.youtube.com/embed/3fnab65WzU8" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </mat-card-content>
+        </mat-card-content>
+        <mat-card-content class="in_video_wrp_r">
+            <mat-card-title class="video_desc_title">
+                EARLY DETECTION WILL ALLOW YOU TO IDENTIFY SYMPTOMS AND DISEASE COMPLICATIONS MORE EFFECTIVELY AND
+                MANAGE RISKS IN SUPPORT OF PREVENTATIVE TREATMENT PLANS FOR:
+            </mat-card-title>
+
+            <mat-list class="data_list">
+                <span class="seperation">
+                    <mat-list-item>Heart Attack</mat-list-item>
+                    <mat-list-item>Stroke</mat-list-item>
+                    <mat-list-item>Heart Rate Variability Issues</mat-list-item>
+                    <mat-list-item>Angiotensin Activity</mat-list-item>
+                    <mat-list-item>Cardiac Output to Body Surface Area</mat-list-item>
+                    <mat-list-item>Atherosclerosis</mat-list-item>
+                    <mat-list-item>Peripheral Vascular Disease</mat-list-item>
+                    <mat-list-item>Abnormal LDL Cholesterol Levels</mat-list-item>
+
+                </span>
+
+                <span class="seperation">
+                    <mat-list-item>Hyperhydrosis & Hypohydrosis</mat-list-item>
+                    <mat-list-item>Insulin Resistance</mat-list-item>
+                    <mat-list-item>Impaired Glucose Intolerance</mat-list-item>
+                    <mat-list-item>Diabetes with Complications</mat-list-item>
+                    <mat-list-item>Nerve Damage</mat-list-item>
+                    <mat-list-item>Physical & Mental Stress and Fatigue</mat-list-item>
+                    <mat-list-item>Obesity</mat-list-item>
+
+                </span>
+            </mat-list>
+
+            <mat-toolbar class="ed">Early Detection Also Helps To Establish Medical <br>
+                Necessity for additional In-Depth Patient Testing
+            </mat-toolbar>
+
+        </mat-card-content>
+    </mat-card-content>
+</mat-card>
+
+
+<mat-card class="high_pre_wrapper">
+    <mat-card-content class="inner_wr">
+        <mat-toolbar class="header_desc">
+            <span class="headerBGmain">
+                High Precision. This Is All Done In A 10-Minute Scan Which Is
+                Followed Up With An ABI Doppler Scan That Runs For Upto 20
+                Minutes For Some Cases In Peripheral Artery Disease States.
+            </span>
+            <button mat-button class="signup_button" (click)="scrollToElement(target)">signup now</button>
+        </mat-toolbar>
+
+        <mat-card-content class="diagrme">
+            <mat-card-content class="diagram_content">
+
+                <mat-toolbar class="items">
+                    <span class="bg">
+                        <mat-card-content class="inner_wrap">
+                            <span class="number">1.</span>
+                            <mat-card-title>Autonomic Nervous <br>
+                                System Dysfunction
+                            </mat-card-title>
+                        </mat-card-content>
+                        <span class="image_wrapper">
+                            <img src="../../../assets/images/diagramImage1.jpg">
+                        </span>
+
+                    </span>
+                </mat-toolbar>
+                <mat-toolbar class="items">
+                    <span class="bg">
+                        <mat-card-content class="inner_wrap">
+                            <span class="number">2.</span>
+                            <mat-card-title>Insulin Resistance </mat-card-title>
+                        </mat-card-content>
+                        <span class="image_wrapper">
+                            <img src="../../../assets/images/diagramImage2.jpg">
+                        </span>
+
+                    </span>
+                </mat-toolbar>
+                <mat-toolbar class="items">
+                    <span class="bg">
+                        <mat-card-content class="inner_wrap">
+                            <span class="number">3.</span>
+                            <mat-card-title>Endothelial <br>
+                                Dysfunction. </mat-card-title>
+                        </mat-card-content>
+                        <span class="image_wrapper">
+                            <img src="../../../assets/images/diagramImage3.jpg">
+                        </span>
+
+                    </span>
+                </mat-toolbar>
+                <mat-toolbar class="items">
+                    <span class="bg">
+                        <mat-card-content class="inner_wrap">
+                            <span class="number">4.</span>
+                            <mat-card-title>Sudomotor <br>
+                                Dysfunction </mat-card-title>
+                        </mat-card-content>
+                        <span class="image_wrapper">
+                            <img src="../../../assets/images/diagramImage4.jpg">
+                        </span>
+
+                    </span>
+                </mat-toolbar>
+                <mat-toolbar class="items">
+                    <span class="bg">
+                        <mat-card-content class="inner_wrap">
+                            <span class="number">5.</span>
+                            <mat-card-title>Cardiac Autonomic <br>
+                                Neuropathy</mat-card-title>
+                        </mat-card-content>
+                        <span class="image_wrapper">
+                            <img src="../../../assets/images/diagramImage5.jpg">
+                        </span>
+
+                    </span>
+                </mat-toolbar>
+                <mat-toolbar class="items">
+                    <span class="bg">
+                        <mat-card-content class="inner_wrap">
+                            <span class="number">6.</span>
+                            <mat-card-title>Cardio- Metabolic <br>
+                                Risk</mat-card-title>
+                        </mat-card-content>
+                        <span class="image_wrapper">
+                            <img src="../../../assets/images/diagramImage6.jpg">
+                        </span>
+
+                    </span>
+                </mat-toolbar>
+                <mat-toolbar class="items">
+                    <span class="bg">
+                        <mat-card-content class="inner_wrap">
+                            <span class="number">7.</span>
+                            <mat-card-title>Small Fibre <br>
+                                Neuropathy</mat-card-title>
+                        </mat-card-content>
+                        <span class="image_wrapper">
+                            <img src="../../../assets/images/diagramImage7.jpg">
+                        </span>
+
+                    </span>
+                </mat-toolbar>
+                <mat-toolbar class="items">
+                    <span class="bg">
+                        <mat-card-content class="inner_wrap">
+                            <span class="number">8.</span>
+                            <mat-card-title>Cardio-vascular <br>
+                                Disease </mat-card-title>
+                        </mat-card-content>
+                        <span class="image_wrapper">
+                            <img src="../../../assets/images/diagramImage8.jpg">
+                        </span>
+
+                    </span>
+                </mat-toolbar>
+
+            </mat-card-content>
+        </mat-card-content>
+    </mat-card-content>
+</mat-card>
+
+
+<!-- end -->
+
+<mat-card-content class="estab_wrapper">
+    <img class="stetho_with" src="../../../assets/images/stecho_withDoctor.png">
+    <mat-card-content class="inner_wr">
+        <mat-card-content class="estab_in_wrapper">
+            <mat-toolbar class="sign_up">
+                <button mat-button class="signup_button" (click)="scrollToElement(target)">signup now</button>
+                <span class="estab_text">
+                    ESTABLISHING MEDICAL NECESSITY FOR ORDERING THIS <br>
+                    TEST FOLLOWS A VAST ARRAY OF POTENTIAL SYMPTOMS.
+                </span>
+
+                <p>LIST OF SYMPTOMS THAT MEET THE MEDICAL NECESSITY <br>
+                    REQUIREMENTS FOR ADDITIONAL TESTING.
+                </p>
+            </mat-toolbar>
+
+
+
+        </mat-card-content>
+
+        <mat-card-content class="nurvous_wrapper">
+            <mat-card-content class="inner_item">
+                <mat-card-title class="titles">Lorem ipsum dolor sit amet.</mat-card-title>
+                <mat-list>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum dolor.3333 </mat-list-item>
+                    <mat-list-item> Lorem, ipsum </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                </mat-list>
+            </mat-card-content>
+            <mat-card-content class="inner_item">
+                <mat-card-title class="titles">Lorem ipsum dolor sit amet.</mat-card-title>
+                <mat-list>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum dolor.3333 </mat-list-item>
+                    <mat-list-item> Lorem, ipsum </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                </mat-list>
+            </mat-card-content>
+            <mat-card-content class="inner_item">
+                <mat-card-title class="titles">Lorem ipsum dolor sit amet.</mat-card-title>
+                <mat-list>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum dolor.3333 </mat-list-item>
+                    <mat-list-item> Lorem, ipsum </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                </mat-list>
+            </mat-card-content>
+            <mat-card-content class="inner_item">
+                <mat-card-title class="titles">Lorem ipsum dolor sit amet.</mat-card-title>
+                <mat-list>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum dolor.3333 </mat-list-item>
+                    <mat-list-item> Lorem, ipsum </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+                </mat-list>
+            </mat-card-content>
+            <mat-card-content class="inner_item">
+                <mat-card-title class="titles">Lorem ipsum dolor sit amet.</mat-card-title>
+                <mat-list>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum dolor.3333 </mat-list-item>
+                    <mat-list-item> Lorem, ipsum </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+
+                </mat-list>
+            </mat-card-content>
+            <mat-card-content class="inner_item">
+                <mat-card-title class="titles">Lorem ipsum dolor sit amet.</mat-card-title>
+                <mat-list>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum dolor.3333 </mat-list-item>
+                    <mat-list-item> Lorem, ipsum </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+
+                </mat-list>
+            </mat-card-content>
+            <mat-card-content class="inner_item">
+                <mat-card-title class="titles">Lorem ipsum dolor sit amet.</mat-card-title>
+                <mat-list>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum dolor.3333 </mat-list-item>
+                    <mat-list-item> Lorem, ipsum </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+
+                </mat-list>
+            </mat-card-content>
+            <mat-card-content class="inner_item">
+                <mat-card-title class="titles">Lorem ipsum dolor sit amet.</mat-card-title>
+                <mat-list>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum dolor.3333 </mat-list-item>
+                    <mat-list-item> Lorem, ipsum </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem, ipsum. </mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
+                    <mat-list-item> Lorem ipsum dolor.</mat-list-item>
+
+                </mat-list>
+            </mat-card-content>
+        </mat-card-content>
+    </mat-card-content>
+</mat-card-content>
+<!-- end -->
+
+<mat-card class="ad_test_component">
+    <mat-card-content class="contaner">
+        <mat-card-content class="ins_content">
+            <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
+            <mat-card-title class="aditional_test">ADDITIONAL TESTING OPPORTUNITIES
+            </mat-card-title>
+            <p class="paragraph">THE DATA VALIDATED MARKERS FOR MEDICAL NECESSITY FOUND IN OUR DIAGNOSTIC CENTER
+                REPORTING PLATFORM LEAD THE FOLLOWING EXAMS AND STUDIES
+            </p>
+
+            <mat-card-content class="list_content">
+                <mat-list>
+                    <span class="section_divider">
+                        <mat-list-item>MRI</mat-list-item>
+                        <mat-list-item>CT Scan</mat-list-item>
+                        <mat-list-item>Ultrasound / Vascular Studies</mat-list-item>
+                        <mat-list-item>Advanced ECG</mat-list-item>
+                        <mat-list-item>Chest X-Ray</mat-list-item>
+                        <mat-list-item>EMG</mat-list-item>
+                        <mat-list-item>EEG</mat-list-item>
+                        <mat-list-item>NCS</mat-list-item>
+                        <mat-list-item>Thermoregulatory Sweat Tests</mat-list-item>
+                    </span>
+                    <span class="section_divider">
+
+                        <mat-list-item>Small Fiber Neuropathy Testing</mat-list-item>
+                        <mat-list-item>Glucose Tolerance Testing</mat-list-item>
+                        <mat-list-item>Blood Tests</mat-list-item>
+                        <mat-list-item>A1C</mat-list-item>
+                        <mat-list-item>Angiography</mat-list-item>
+                        <mat-list-item>Stress Tests</mat-list-item>
+                        <mat-list-item>Holter Monitor</mat-list-item>
+                        <mat-list-item>Bone Scan</mat-list-item>
+                    </span>
+
+                </mat-list>
+            </mat-card-content>
+            <p class="down_p">
+                THIS RECORD IS DISPLAYED IN OUR REPORTING SYSTEM SHOWING YOU EVERYTHING YOU NEED TO ORDER MANY OF OUR
+                OTHER EXAMS AND SERVICES IMMEDIATELY.
+
+            </p>
+        </mat-card-content>
+    </mat-card-content>
+</mat-card>
+
+
+<!-- start additional testing opportunity -->
+<mat-card class="adi_test_wrapper">
+    <img class="stetho_with" src="../../../assets/images/stecho_withDoctor.png">
+    <mat-card-content class="in_wrappr">
+        <mat-card-content class="content_wr">
+            <mat-card-content class="addit_wrapper">
+                <span class="button_wrapper">
+                    <button mat-button class="signup_button" (click)="scrollToElement(target)">Signup Now</button>
+                </span>
+
+                <span class="content_right">
+                    <mat-card-title class="headerBGmain">ADDITIONAL TESTING OPPORTUNITIES</mat-card-title>
+                    <p>Doctors, You Can Manage Your Doctor’s Office From Your Account On The PECE Virtual Program. Your
+                        Doctor’s Office Will Book Appointments For Your Patients With The MedTechs At The
+                        Diagnostic Center For The RM-3A Testing Using Available Booking Slots.
+                    </p>
+                    <img src="../../../assets/images/peceCalenderView.jpg">
+                </span>
+            </mat-card-content>
+
+            <mat-toolbar class="rm_3a_wr">
+                <span>Once The RM-3A Test Is Complete, The MedTech Will Upload The Test Report <br> On The PECE
+                    Software, Where You Can Also View Them.
+                </span>
+                <button mat-button class="signup_button" (click)="scrollToElement(target)">Signup Now</button>
+            </mat-toolbar>
+        </mat-card-content>
+    </mat-card-content>
+</mat-card>
+
+
+<mat-card class="images_wrapper">
+    <mat-card-content class="inner_wraper">
+        <span class="top_h_wr">
+            <span class="headerBGmain">
+                HERE ARE SOME OF THE VIEWS THAT ARE AVAILABLE IN THE 7-PAGE REPORT THAT
+                IS DOWNLOADABLE IMMEDIATELY FROM OUR EASY-TO-ACCESS VIRTUAL
+                PLATFORM. YOU WILL BE ABLE TO VIEW THE RESULTS OF THE TEST AS WELL AS
+                REVIEW THE ENCOUNTER FORM CRITERIA TO ASSIST IN THE DIAGNOSIS AND
+                TREATMENT OF YOUR PATIENTS.
+
+            </span>
+        </span>
+
+        <mat-card-content class="inner_tp_wr">
+            <span class="style_header">
+                click on images for larger view
+            </span>
+            <mat-card-content class="img_wrapper">
+                <mat-card-content class="img_item" *ngFor="let item of reportView">
+                    <img src='{{item.images}}' (click)="viewMore(item)">
+                </mat-card-content>
+            </mat-card-content>
+        </mat-card-content>
+        <mat-toolbar class="sign">
+            <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
+        </mat-toolbar>
+    </mat-card-content>
+</mat-card>
+
+<!-- end -->
+<mat-card class="wewlcm_wrapper">
+    <mat-card-content class="w_inner_wrapper">
+        <span class="headerBGmain">We welcome requests from Ordering
+            Physicians in the following Taxonomies.
+        </span>
+
+        <mat-card-content class="img_btn">
+            <mat-card-content class="list_wr">
+                <mat-list>
+                    <span class="inner_wr">
+                        <mat-list-item>Family Medicine</mat-list-item>
+                        <mat-list-item>General Practice</mat-list-item>
+                        <mat-list-item>Primary Care</mat-list-item>
+                        <mat-list-item>Cardiology</mat-list-item>
+                        <mat-list-item>Internal Medicine</mat-list-item>
+                        <mat-list-item>Endocrinology</mat-list-item>
+                    </span>
+                    <span class="inner_wr">
+                        <mat-list-item>D.O. (Doctor of Osteopathy) </mat-list-item>
+                        <mat-list-item>Pain Management (Integrated Practice)</mat-list-item>
+                        <mat-list-item>OB-GYN </mat-list-item>
+                        <mat-list-item>Multi-Specialty Group </mat-list-item>
+                        <mat-list-item>Orthopedic Surgeon (that provides long-term patient care) </mat-list-item>
+                        <mat-list-item> Pain Management Group with MD of proper taxonomy</mat-list-item>
+
+                    </span>
+                </mat-list>
+            </mat-card-content>
+            <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
+        </mat-card-content>
+        <span class="headerBGmain bottom_desc">Discussion on the RM-3A test with
+            Dr. Samah Mohiuddin
+        </span>
+    </mat-card-content>
+</mat-card>
+
+
+<!-- mahiuddin video -->
+
+<mat-card-content class="large_video_wrapper">
+    <mat-card-content class="inner_er_video">
+        <mat-card-content class="video_qr">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FwzuWiNv408" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </mat-card-content>
+
+        <mat-card-content class="video_content_wrapper">
+            <mat-card-content class="inner_content">
+                <p>“Cardio-autonomic neuropathy and small fiber neuropathy diagnosis cannot be made with routine
+                    laboratory tests and clinical examination alone. Both conditions can lead to a change in
+                    management depending on what symptoms the patient has and what diagnosis is concluded. For example,
+                    patients with cardiovagal impairment can be advised to use compression stockings, or
+                    fludrocortisone for more severe cases, and or midodrine can be used. A skin biopsy can be avoided
+                    for patients with a small fiber neuropathy diagnosis with this test.
+                    Autonomic system testing is considered investigational in situations when criteria are not met.
+                    These situations include (but are not limited to) the evaluation of conditions like Chronic fatigue
+                    syndrome, fibromyalgia, sleep apnea, hypertension, etc.
+                </p>
+                <mat-toolbar>
+                    <span class="image_wrapper">
+                        <img src="../../../assets/images/mahiuddin.png">
+                    </span>
+                    <mat-card-title>
+                        I do believe this combination test provides patients useful information and guidance to the
+                        overall improvement of their health.” - Dr. Samah Mohiuddin.
+                    </mat-card-title>
+                </mat-toolbar>
+                <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
+            </mat-card-content>
+        </mat-card-content>
+
+       <app-footer></app-footer>
+    </mat-card-content>
+</mat-card-content>

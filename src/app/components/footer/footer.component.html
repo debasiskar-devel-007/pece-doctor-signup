@@ -1,0 +1,17 @@
+ 
+
+<mat-toolbar class="footer_wrapper">
+    <div class="scroll-to-top" [ngClass]="{'show-scrollTop': windowScrolled}">
+        <a (click)="scrollToTop()">
+          <i class="material-icons">
+            keyboard_arrow_up
+            </i>
+        </a>
+    </div>
+    <span>
+        <a nav-list>privacy policy</a>
+        <a nav-list>terms conditions</a>
+    </span>
+    <p>© Copyright 2018 Advanced Wellness Solutions- All Rights Reserved</p>
+</mat-toolbar>
+

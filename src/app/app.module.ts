@@ -14,6 +14,8 @@ import { DemoMaterialModule } from './material-module';
 import { HTTP_INTERCEPTORS, HttpClient, HttpClientModule } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { MetaModule, MetaLoader, MetaStaticLoader, PageTitlePositioning } from '@ngx-meta/core';
+import { LandingPageComponent, ViewDetails } from './components/landing-page/landing-page.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 export function metaFactory(): MetaLoader {
   return new MetaStaticLoader({
@@ -36,7 +38,10 @@ export function metaFactory(): MetaLoader {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingPageComponent,
+    ViewDetails,
+    FooterComponent
   ],
   imports: [
     DemoMaterialModule,
@@ -61,7 +66,8 @@ export function metaFactory(): MetaLoader {
     CookieService,TestresolveService,ApiService
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents:[ViewDetails]
 })
 export class AppModule {
   constructor(public http: HttpClient, public router: Router) {
