@@ -30,6 +30,7 @@ public reportView:any=[
     return this.email.hasError('email') ? 'Not a valid email' : '';
   }
   ngOnInit() {
+    
   }
 
   viewMore(val:any){ 
@@ -42,7 +43,7 @@ public reportView:any=[
     });
   }
 
-  scrollToElement($element): void {
+  scrollToElement($element) {
     $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
   

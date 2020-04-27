@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core'; 
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,7 +9,9 @@ import { Router } from '@angular/router';
 export class FooterComponent implements OnInit {
 
   windowScrolled: boolean;
-  constructor(public router: Router) { }
+  constructor( public router: Router) { 
+      console.log('router', router)
+  }
 
   ngOnInit() {
       this.router.events.subscribe(() =>

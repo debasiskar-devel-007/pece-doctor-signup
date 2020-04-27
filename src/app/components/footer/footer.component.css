@@ -13,7 +13,14 @@ right: 0; top: 34%; }
 .show-scrollTop{opacity:1;transition:all .2s ease-in-out}
 
 
+
 @media screen and (max-width: 776px){
     .footer_wrapper { width: 90%; }
     .footer_wrapper p { white-space: normal; text-align: center; line-height: 20px;  }
+}
+
+@media screen and (max-width: 360px){
+    .footer_wrapper span a { font-size: 14px; }
+    .footer_wrapper { width: 100%; }
+    .footer_wrapper p { line-height: 14px; font-size: 12px; }
 }

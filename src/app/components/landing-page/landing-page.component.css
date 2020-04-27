@@ -16,7 +16,7 @@
 
 .adi_test_wrapper, .bg_video_wrapper, .fr_wrpr, .high_pre_wrapper, .wewlcm_wrapper,
 .estab_wrapper, .ad_test_component, .images_wrapper{ box-shadow: none; }
-.land_top_header{padding: 0; height: inherit; border: 1px solid #fff; justify-content: space-between;}
+.land_top_header{padding: 0; height: inherit; border: 1px solid #fff; justify-content: space-between; align-items: inherit;}
 .land_top_header button{ border-radius: 0; font-size: 20px; color: #fff; text-transform: uppercase;
 border-right: 1px solid #fff; font-family: 'RalewayBold'; padding: 10px 18px; }
 .land_top_header button:nth-child(1){ background: linear-gradient(0deg, #ed3062, #f14f74); } 
@@ -623,6 +623,7 @@ text-align: center; margin: 0; }
   .large_video_wrapper .video_content_wrapper .inner_content .mat-toolbar .mat-card-title { margin: 0; margin-top: 20px; text-align: center; }
   .large_video_wrapper .video_content_wrapper .inner_content .signup_button { margin: 16px auto 0; display: block; }
   .large_video_wrapper .video_content_wrapper .inner_content { font-size: 18px; padding: 16px; text-align: center; }
+  .nurvous_wrapper .inner_item .titles { min-height: 35px; }
 }
 
 @media screen and (max-width: 420px){
