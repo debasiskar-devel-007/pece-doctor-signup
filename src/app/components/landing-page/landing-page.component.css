@@ -258,7 +258,7 @@ padding: 0; background: transparent; justify-content: space-between;}
 .large_video_wrapper .video_content_wrapper  .inner_content .mat-toolbar .mat-card-title{ color: #ff4800;
 font-size: 18px; font-family: 'MontserratRegular'; word-break: break-word;
 white-space: normal; width: auto; line-height: 28px; margin-bottom: 0; margin-left: 20px;}
-.large_video_wrapper .video_content_wrapper  .inner_content .mat-toolbar  .image_wrapper{ display: block;
+.large_video_wrapper .video_content_wrapper  .inner_content .mat-toolbar  .image_wrapper{ display: flex;
 width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing: border-box;  box-shadow: 0px 1px 5px 0px #615e5e;}
 .large_video_wrapper .video_content_wrapper  .inner_content .mat-toolbar  .image_wrapper img{ max-width: 100%;}
 
@@ -530,7 +530,7 @@ line-height: 34px; box-sizing: border-box; }
 .images_wrapper .inner_tp_wr .style_header::before,
 .images_wrapper .inner_tp_wr .style_header::after{ display: none}
 .images_wrapper .inner_tp_wr .style_header { width: 95%; box-sizing: border-box; }
-
+.fr_wrpr .inner_wrapper .l_er .in_right .paragraph br{ display: none;}
 }
 
 @media screen and (max-width: 776px){ 
@@ -550,5 +550,82 @@ line-height: 34px; box-sizing: border-box; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .inner_wrap .mat-card-title { font-size: 28px; line-height: 28px;
 text-align: center; margin: 0; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .number { font-size: 34px; margin: 20px auto; }
+.estab_wrapper .inner_wr .estab_in_wrapper .sign_up p br{ display: none;}
 
+}
+
+@media screen and (max-width: 668px){ 
+  .ats_top p { margin: 10px 16px; font-size: 22px; }
+  .fr_wrpr { padding-top: 65%; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .top_title { font-size: 40px; line-height: 44px; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: 34px; font-size: 28px; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .paragraph {  font-size: 22px; }
+  .fr_wrpr .inner_wrapper .l_er .arrow_bg { text-align: center;  padding: 20px; font-size: 24px; line-height: 30px; }
+  .fr_wrpr .inner_wrapper .r_er .form_title { font-size: 38px;  }
+  .video_gallery .in_video_wrp_r .data_list { display: flex; flex-direction: column;}
+  .video_gallery .in_video_wrp_r .data_list .seperation { width: 100%; }
+  .nurvous_wrapper .inner_item { width: 49%; }
+  .ad_test_component .contaner .ins_content .aditional_test br{display: none;}
+  .ad_test_component .contaner .ins_content .aditional_test{font-size: 36px;}
+  .ad_test_component .contaner .ins_content .paragraph { text-align: center;} 
+  .adi_test_wrapper .in_wrappr .rm_3a_wr span { font-size: 22px; text-align: center; }
+  .headerBGmain { font-size: 30px; }
+  .images_wrapper .top_h_wr .headerBGmain { font-size: 20px; line-height: 28px; text-align: center; }
+  .adi_test_wrapper .in_wrappr .rm_3a_wr .signup_button{margin-left: 0;}
+  .images_wrapper .inner_tp_wr .style_header { font-size: 22px; }
+  .large_video_wrapper .video_content_wrapper { padding-bottom: 0; }
+  .large_video_wrapper .video_content_wrapper .inner_content p { line-height: initial; }
+  .large_video_wrapper .video_content_wrapper .inner_content .mat-toolbar .mat-card-title { line-height: initial; }
+  .video_gallery .in_video_wrp_r::before{ display: none;}
+  .video_gallery .in_video_wrp_r .video_desc_title { font-size: 20px; text-align: center; }
+  .video_gallery .in_video_wrp_l .video_title { width: 100%; margin: 20px auto; font-size: 40px; box-sizing: border-box; }
+  .video_gallery .in_video_wrp_r .ed { width: auto; margin: 16px; margin-top: 0; }
+  .signup_button { padding: 5px 24px; margin-left: initial; }
+  .wewlcm_wrapper .w_inner_wrapper .headerBGmain { font-size: 30px; text-align: center; line-height: 30px; }
+  .wewlcm_wrapper .w_inner_wrapper .img_btn .list_wr .mat-list { display: flex; flex-direction: column; }
+  .wewlcm_wrapper .w_inner_wrapper .img_btn .list_wr .mat-list .inner_wr { width: 100%; }
+  .wewlcm_wrapper .w_inner_wrapper .img_btn .list_wr .mat-list .mat-list-item { padding: 6px 16px; }
+  .high_pre_wrapper .inner_wr .header_desc .signup_button { margin-left: initial; }
+
+}
+
+@media screen and (max-width: 500px){
+  .adi_test_wrapper .stetho_with { top: 0; display: none; }
+  .land_top_header button { line-height: 16px; font-size: 16px; width: 50%; box-sizing: border-box; } 
+  .fr_wrpr { background-position: center 0; padding-top: 100%;}
+  .fr_wrpr .inner_wrapper .l_er .in_right .top_title { font-size: 28px; line-height: initial; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: initial; font-size: 20px; padding: 10px; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .paragraph { font-size: 22px; line-height: initial; }
+  .fr_wrpr .inner_wrapper .l_er .arrow_bg br{ display: none; }
+  .fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 16px; font-size: 20px; line-height: inherit; }
+  .fr_wrpr .inner_wrapper .r_er .form_title { font-size: 30px; line-height: initial; }
+  .high_pre_wrapper .inner_wr .diagrme .diagram_content .number { margin: 10px auto; }
+  .estab_wrapper .inner_wr .estab_in_wrapper .sign_up .estab_text { font-size: 22px; line-height: initial; }
+  .estab_wrapper .inner_wr .estab_in_wrapper .sign_up p { font-size: 18px;}
+  .nurvous_wrapper .inner_item { width: 100%; margin: 0; margin-bottom: 16px; }
+  .ad_test_component .contaner .ins_content .signup_button { margin: 20px auto; }
+  .ad_test_component .contaner .ins_content .aditional_test { font-size: 24px; }
+  .ad_test_component .contaner .ins_content .paragraph { font-size: 20px; }
+  .ad_test_component .contaner .ins_content .list_content .mat-list { display: flex; flex-direction: column; }
+  .ad_test_component .contaner .ins_content .list_content .mat-list .section_divider { width: 100%; }
+  .adi_test_wrapper .in_wrappr .rm_3a_wr span { font-size: 18px; line-height: initial; }
+  .images_wrapper .top_h_wr .headerBGmain { font-size: 18px; line-height: inherit; }
+  .images_wrapper .img_wrapper .img_item { width: 100%; margin: 0; margin-bottom: 16px; }
+  .wewlcm_wrapper .w_inner_wrapper .headerBGmain { font-size: 22px; line-height: initial; }
+  .large_video_wrapper .video_content_wrapper .inner_content .mat-toolbar { flex-direction: column; }
+  .large_video_wrapper .video_content_wrapper .inner_content .mat-toolbar .mat-card-title { margin: 0; margin-top: 20px; text-align: center; }
+  .large_video_wrapper .video_content_wrapper .inner_content .signup_button { margin: 16px auto 0; display: block; }
+  .large_video_wrapper .video_content_wrapper .inner_content { font-size: 18px; padding: 16px; text-align: center; }
+}
+
+@media screen and (max-width: 420px){
+  .fr_wrpr .inner_wrapper .l_er .flx_wrapper .in_left { width: 100%; }
+  .fr_wrpr .inner_wrapper .l_er .flx_wrapper .in_left img{ max-width: 100%; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .top_title { font-size: 24px; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .paragraph { font-size: 18px; }
+  .fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 10px; font-size: 16px; line-height: inherit; }
+  .fr_wrpr .inner_wrapper .r_er .m_form button { font-size: 36px; padding: 8px 10px; }
+  .video_gallery .in_video_wrp_l .video_title { width: 100%; margin: 0px auto 20px; font-size: 36px; line-height: initial; }
+  .ad_test_component .contaner .ins_content .down_p { font-size: 20px; }
+  .headerBGmain { font-size: 24px; }
 }
