@@ -31,14 +31,14 @@ border-right: 1px solid #fff; font-family: 'RalewayBold'; padding: 10px 18px; }
 
 .ats_top{ justify-content: center; padding: 0; height: inherit;  background: linear-gradient(0deg, #0f607c, #127193); }
 .ats_top p{ font-family: 'RalewayBold'; font-size: 36px; color: #fefefe; margin: 16px 0;}
-.fr_wrpr{ background:url("../../../assets/images/topBannerMedicalimage.png") no-repeat left; background-size: 700px;}
+.fr_wrpr{ background:url("https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/topBannerMedicalimage.png") no-repeat left; background-size: 700px;}
 .fr_wrpr .inner_wrapper{ display: flex; width: 1600px; margin: auto;}
 .fr_wrpr .inner_wrapper .l_er{ display: flex; flex-direction: column; width: 75%; margin: 0;}
 .fr_wrpr .inner_wrapper .l_er .flx_wrapper{ width: 100%; display: flex; justify-content: space-around;}
 .fr_wrpr .inner_wrapper .l_er .flx_wrapper .in_left, 
 .fr_wrpr .inner_wrapper .l_er .flx_wrapper .in_right { margin-bottom: 0;}
 
-.fr_wrpr .inner_wrapper .l_er .arrow_bg{ background: url("../../../assets/images/arrowBg.png") no-repeat; padding: 20px 60px; font-family: 'RalewayBold'; font-size: 35px; text-transform: uppercase; word-break: break-word;
+.fr_wrpr .inner_wrapper .l_er .arrow_bg{ background: url("https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/arrowBg.png") no-repeat; padding: 20px 60px; font-family: 'RalewayBold'; font-size: 35px; text-transform: uppercase; word-break: break-word;
 white-space: normal; background-size: 100%; text-align: right; color: #fff;  line-height: 46px; margin-top: auto;}
 .fr_wrpr .inner_wrapper .l_er .in_right .top_title{font-size: 65px; text-transform: uppercase; text-align: center; font-family: 'BarlowExBold'; line-height: 66px; margin: 24px 0; background: -webkit-linear-gradient(45deg, #02a1ce, #0bc113);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent; position: relative;    -webkit-text-fill-color: transparent;
     filter: drop-shadow(2px 2px #ddd); } 
@@ -62,7 +62,7 @@ font-family: 'RalewayRegular'; background: #e4ff00; padding: 16px; box-sizing: b
 color: #d9dada; border-radius: 14px; border: 4px solid #a4cee2; overflow: hidden; }
 .fr_wrpr .inner_wrapper .r_er .m_form button::before{
     content:'';
-    background: url("../../../assets/images/chipset.png") no-repeat right center;
+    background: url("https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/chipset.png") no-repeat right center;
     width: 50px;
     height: 58px;
     z-index: 999;
@@ -81,28 +81,28 @@ color: #d9dada; border-radius: 14px; border: 4px solid #a4cee2; overflow: hidden
 border-radius: 6px; box-shadow: 1px 1px 1px #0d0d0d; padding: 12px 20px; width: 470px; margin: 8px 0 20px;
  text-align: center; position: relative;}
 .video_gallery .in_video_wrp_l .video_title::after{
-content: ''; background:url('../../../assets/images/watch_shadow.png') no-repeat center bottom; height: 100%; width: 100%; position: absolute; bottom: -50px; left: 0; }
+content: ''; background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/watch_shadow.png') no-repeat center bottom; height: 100%; width: 100%; position: absolute; bottom: -50px; left: 0; }
  
 .video_gallery .in_video_wrp_r{width: 54%; margin: 0; background: #ebeff1; position: relative; border-radius: 24px; box-sizing: border-box; }
 .video_gallery .in_video_wrp_r .data_list{ display: flex; padding: 20px; padding-top: 0;}
 .video_gallery .in_video_wrp_r .data_list .seperation{ width: 50%;}
-.video_gallery .in_video_wrp_r .data_list .seperation .mat-list-item{ height: auto; font-size: 18px; color: #242525; font-family: 'RalewayBold'; padding: 10px; background:url("../../../assets/images/iconic.jpg") no-repeat left 16px;}  
+.video_gallery .in_video_wrp_r .data_list .seperation .mat-list-item{ height: auto; font-size: 18px; color: #242525; font-family: 'RalewayBold'; padding: 10px; background:url("https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/iconic.jpg") no-repeat left 16px;}  
 
 .video_gallery .in_video_wrp_r .ed{ font-size: 20px; font-family: 'MontserratBold';  color: #fff; background: #0cc004; height: auto; border-radius: 6px; box-shadow: 1px 1px 1px #0d0d0d; padding: 12px 20px; width: 67%; margin: 0px 0px 20px 20px; text-align: center; position: relative; line-height: 24px; white-space: normal;}
 .video_gallery .video_con{ position: relative; display: block; margin: 0 auto; width: 100%; padding-bottom: 56.25%; box-sizing: border-box; }
 .video_gallery .video_con iframe { position: absolute; top: 0; left: 0%;  width: 100%; height: 100%; }
 
-.video_gallery .in_video_wrp_r::before{ content: ''; position: absolute; background: url('../../../assets/images/stetho.png') no-repeat right bottom; width: 100%; height: 100%; bottom: -15px; }
+.video_gallery .in_video_wrp_r::before{ content: ''; position: absolute; background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/stetho.png') no-repeat right bottom; width: 100%; height: 100%; bottom: -15px; }
 .video_gallery  .in_video_wrp_r .video_desc_title{ background: linear-gradient(45deg, #28d4e1, #1ebfe9);
 padding: 14px; box-sizing: border-box; color: #fff; font-family: 'RalewayBold'; font-size: 24px; line-height: 32px; border-top-right-radius: 30px; border-top-left-radius: 30px; overflow: hidden;}
 
 /*high pression wrapper */
-.high_pre_wrapper{ background: url('../../../assets/images/hPreBG.png') no-repeat right center; }
+.high_pre_wrapper{ background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/hPreBG.png') no-repeat right center; }
 .high_pre_wrapper .inner_wr{ width: 1600px; margin: 0 auto; }
 .high_pre_wrapper .inner_wr .header_desc{ height: inherit; background: transparent; padding: 0; justify-content: flex-start; }
 .high_pre_wrapper .inner_wr .header_desc .headerBGmain{ width: 77%; position: relative; white-space: normal; line-height: 42px; text-align: left; padding: 20px; font-size: 40px;}
 .high_pre_wrapper .inner_wr .header_desc .headerBGmain::after{
-  content: ''; background: url('../../../assets/images/smallArrow.png') no-repeat right bottom;
+  content: ''; background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/smallArrow.png') no-repeat right bottom;
   position: absolute; bottom: -80px; right: -60px; width: 60px; height: 110px;} 
  
 .high_pre_wrapper .inner_wr .header_desc .signup_button{margin-left: 20px; margin-bottom: auto;} 
@@ -110,7 +110,7 @@ padding: 14px; box-sizing: border-box; color: #fff; font-family: 'RalewayBold'; 
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items{ height:auto; background: transparent; width: 100%; padding: 10px 0; box-sizing: border-box; position: relative; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .number{ margin-bottom: auto; color: #01b2e5; font-size: 36px; font-family: 'LatoBlack'; } 
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .inner_wrap .mat-card-title{ font-size: 26px; font-family: 'LatoRegular'; color: #484848; margin: 0; margin-left: 8px; width: 100%; }
-.high_pre_wrapper .inner_wr .diagrme .diagram_content{  background: url(../../../assets/images/humanDiagram.png) no-repeat;
+.high_pre_wrapper .inner_wr .diagrme .diagram_content{  background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/humanDiagram.png') no-repeat;
 background-position: top; background-size: contain; padding-left: 0; column-count: 2; column-gap: 40px; }
  
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items .bg{  background: #fff; width: 440px; display: flex;
@@ -125,37 +125,37 @@ border-bottom-right-radius: 0; flex-direction: row-reverse;
 }
  
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(1)::after{
-content: ''; position: absolute; background:url('../../../assets/images/pointNavigation1.png') no-repeat;
+content: ''; position: absolute; background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/pointNavigation1.png') no-repeat;
 width: 220px; height: 96px; background-size: 100%; bottom: -5px; right: 10px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(2)::after{
- content: ''; position: absolute; background:url('../../../assets/images/pointNavigation2.png') no-repeat;
+ content: ''; position: absolute; background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/pointNavigation2.png') no-repeat;
   width: 220px; height: 96px; background-size: 100%; bottom: -5px; right: 10px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(3)::after{
-  content: ''; position: absolute; background:url('../../../assets/images/pointNavigation3.png') no-repeat;
+  content: ''; position: absolute; background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/pointNavigation3.png') no-repeat;
   width: 215px; height: 95px; background-size: 100%; top: 0; right: 10px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(4)::after{
-  content: ''; position: absolute; background:url('../../../assets/images/pointNavigation4.png') no-repeat;
+  content: ''; position: absolute; background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/pointNavigation4.png') no-repeat;
   width: 196px; height: 65px; background-size: 100%; bottom: 30px; right: 30px; }  
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(5)::after{
  content: ''; position: absolute;
-  background:url('../../../assets/images/pointNavigation2.png') no-repeat; width: 215px;
+  background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/pointNavigation2.png') no-repeat; width: 215px;
   height: 10px; background-size: 100%; bottom: 85px; left: 12px; transform: rotate(180deg); }
 
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(6)::after{
-  content: ''; position: absolute; background:url('../../../assets/images/pointNavigation6.png') no-repeat;
+  content: ''; position: absolute; background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/pointNavigation6.png') no-repeat;
   width: 210px; height: 56px; background-size: 100%; bottom:70px; left: 12px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(7)::after{
-    content: ''; position: absolute; background:url('../../../assets/images/pointNavigation7.png') no-repeat;
+    content: ''; position: absolute; background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/pointNavigation7.png') no-repeat;
     width: 196px; height: 40px; background-size: 100%; bottom: 40px; left: 28px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(8)::after{
-  content: ''; position: absolute; background:url('../../../assets/images/pointNavigation8.png') no-repeat;
+  content: ''; position: absolute; background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/pointNavigation8.png') no-repeat;
   width: 200px; height: 70px; background-size: 100%; bottom: 60px; left: 26px; }
 
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items .bg .inner_wrap { margin: 0; display: flex; width: 68%; 
 justify-content: space-between; align-items: center; }   
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items .bg .image_wrapper {  width: 110px;
 height: 110px; border-radius: 50%; overflow: hidden; border: 6px solid #47bdde; display: flex;} 
-.estab_wrapper{ background: url('../../../assets/images/signupBanner.jpg') no-repeat left 0%; background-size: cover; position: relative; padding: 60px 0;}
+.estab_wrapper{ background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/signupBanner.jpg') no-repeat left 0%; background-size: cover; position: relative; padding: 60px 0;}
 .estab_wrapper .stetho_with{ position: absolute; right: 55px; top: -38px; }
 .estab_wrapper .inner_wr{ width: 1600px; margin: auto; display: flex; flex-direction: column;} 
 .estab_wrapper .inner_wr .estab_in_wrapper{ width: auto; margin-left: auto;}
@@ -180,7 +180,7 @@ text-transform: uppercase; position: relative; font-family: 'MontserratBold'; fo
 
 /* start  */
 
-.ad_test_component{ background: url('../.././../assets/images/aditional_testBG.png') no-repeat right top;}
+.ad_test_component{ background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/aditional_testBG.png') no-repeat right top;}
 .ad_test_component .contaner{ width: 1600px; margin: auto;}
 .ad_test_component .contaner .ins_content{ width: 850px; display: flex; flex-direction: column; align-items: flex-start; }
 .ad_test_component .contaner .ins_content .aditional_test{ background: linear-gradient(45deg, #0395be, #0cc304);
@@ -193,9 +193,9 @@ width: 100%; border-radius: 10px; border: 1px solid #b9b9b9; padding: 16px; box-
 .ad_test_component .contaner .ins_content .list_content .mat-list{  display: flex; justify-content: space-between;}
 .ad_test_component .contaner .ins_content .list_content .mat-list .section_divider{ width: 50%;}
 .ad_test_component .contaner .ins_content .list_content .mat-list .mat-list-item{ height: auto; position: relative;
-padding: 8px 16px; color: #3a3a3a; font-family: 'MontserratBold'; font-size: 18px; background: url('../../../assets/images/iconic.jpg') no-repeat left 10px; box-sizing: border-box;} 
+padding: 8px 16px; color: #3a3a3a; font-family: 'MontserratBold'; font-size: 18px; background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/iconic.jpg') no-repeat left 10px; box-sizing: border-box;} 
 .ad_test_component .contaner .ins_content .down_p{ color:#ff4e00; font-size: 18px; font-family: 'MontserratSemibold'; text-transform: uppercase; } 
-.adi_test_wrapper{ background: url('../../../assets/images/additional_testingOpportunityBG.png') no-repeat 0% center; position: relative;}
+.adi_test_wrapper{ background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/additional_testingOpportunityBG.png') no-repeat 0% center; position: relative;}
 .adi_test_wrapper .stetho_with{ position: absolute; right: 55px; top: -90px; width: 230px; z-index: -1;}
 .adi_test_wrapper .in_wrappr{ width: 1600px; margin: 0 auto;}
 .adi_test_wrapper .in_wrappr .addit_wrapper { display: flex; justify-content: space-between;}
@@ -207,12 +207,12 @@ padding: 8px 16px; color: #3a3a3a; font-family: 'MontserratBold'; font-size: 18p
 .adi_test_wrapper .in_wrappr .rm_3a_wr span { background: linear-gradient(45deg, #1ebfe9, #28d4e1);
 font-size: 24px; white-space: normal; word-break: break-word; font-family: 'RalewayBold'; color: #fff;
 padding: 10px 20px; box-sizing: border-box; line-height: 30px; width: auto; border-radius: 8px; box-shadow: 1px 2px 5px 0px #464545; margin-left: auto; }
-.wewlcm_wrapper{ background: url('../../../assets/images/welcomeBG.png') no-repeat right center; }
+.wewlcm_wrapper{ background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/welcomeBG.png') no-repeat right center; }
 .wewlcm_wrapper .w_inner_wrapper{ width: 1600px; margin:0 auto;}
 .wewlcm_wrapper .w_inner_wrapper .headerBGmain{ width: 875px; display: block; margin-bottom: 30px;} 
 .wewlcm_wrapper .w_inner_wrapper .bottom_desc{ width: 784px; display: block; text-align: left; line-height: 40px;margin-bottom: 10px; position: relative;}
 .wewlcm_wrapper .w_inner_wrapper .bottom_desc::before{
-content: ''; background: url('../../../assets/images/smallArrow.png') no-repeat right bottom; position: absolute;       top: 0; right: -75px; width: 60px; height: 123px; }
+content: ''; background: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/smallArrow.png') no-repeat right bottom; position: absolute;       top: 0; right: -75px; width: 60px; height: 123px; }
 .wewlcm_wrapper .w_inner_wrapper .img_btn{width: 1120px; display: flex; justify-content: space-between;
 align-items: center;} 
 .wewlcm_wrapper .w_inner_wrapper .img_btn .list_wr{ background: #ebeff1;
@@ -221,8 +221,8 @@ width: 70%; border: 1px solid #cecece; padding: 16px; border-radius: 6px; box-si
 .wewlcm_wrapper .w_inner_wrapper .img_btn .list_wr .mat-list{ display: flex;}
 .wewlcm_wrapper .w_inner_wrapper .img_btn .list_wr .mat-list .mat-list-item{ height: inherit; padding: 10px 16px;
 font-size: 18px; font-family: 'MontserratRegular'; color: #3a3a3a; box-sizing: border-box; min-width: 250px;
-background: url(../../../assets/images/iconic.jpg) no-repeat left 15px;}
-.images_wrapper { background:url('../../../assets/images/viewMoreImage.png') no-repeat right top; }
+background: url(https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/iconic.jpg) no-repeat left 15px;}
+.images_wrapper { background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/viewMoreImage.png') no-repeat right top; }
 .images_wrapper .inner_wraper { width: 1600px; margin: 0 auto;}
 .images_wrapper .top_h_wr { width: 1250px; display: block;}
 .images_wrapper .top_h_wr .headerBGmain{ font-size: 30px; display: block; text-align: left; padding: 20px;  line-height: 36px; }
@@ -232,10 +232,10 @@ width: 545px; position: relative; margin: 24px auto; margin-bottom: 0; font-size
 text-transform: uppercase; font-family: 'RalewayBold'; text-align: center; box-shadow: 0px 3px 4px 0px #989696;}
 .images_wrapper .inner_tp_wr .style_header::after{
 content: ''; position: absolute; top: 0; width: 70px; height: 100%;
-background:url('../../../assets/images/rightBarPin.png') no-repeat center top; right: -66px; }
+background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/rightBarPin.png') no-repeat center top; right: -66px; }
 .images_wrapper .inner_tp_wr .style_header::before{
 content: ''; position: absolute; top: 0; width: 70px; height: 100%;
-background:url('../../../assets/images/leftBarPin.png') no-repeat center top; left: -66px; }
+background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/leftBarPin.png') no-repeat center top; left: -66px; }
 .images_wrapper .img_wrapper { display: flex; justify-content: center; flex-wrap: wrap; padding: 14px 10px;}
 .images_wrapper .img_wrapper .img_item{ width: 49%; margin: .5%;  box-sizing: border-box; padding: 5px;
 background: #fff; border: 1px solid #b7b7b7; border-radius: 5px; }
@@ -246,7 +246,7 @@ background: #fff; border: 1px solid #b7b7b7; border-radius: 5px; }
 .large_video_wrapper .inner_er_video .video_qr{ position: relative; display: block; margin: 0 auto; width: 100%;
 padding-bottom: 56.25%; box-sizing: border-box; }
 .large_video_wrapper .inner_er_video .video_qr iframe{ position: absolute; top: 0; left: 0%; width: 100%;  height: 100%; } 
-.large_video_wrapper .video_content_wrapper{  background:url('../../../assets/images/largeVBBG.png') no-repeat bottom left; padding: 26px 0; padding-left: 600px; }
+.large_video_wrapper .video_content_wrapper{  background:url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/largeVBBG.png') no-repeat bottom left; padding: 26px 0; padding-left: 600px; }
 .large_video_wrapper .video_content_wrapper .inner_content .signup_button { margin: 20px 0 0;}
 .large_video_wrapper .video_content_wrapper .inner_content{ font-size: 18px;
 font-family: 'MontserratRegular'; color: #3a3a3a; line-height: 20px; background: #ebeff1; padding: 20px;

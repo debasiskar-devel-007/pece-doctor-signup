@@ -87,8 +87,7 @@
               "Fn::Join": [
                 "-",
                 [
-                  "dev",
-                  "pece-doctor-signup",
+                  "pece-doctor-signup-dev",
                   "lambda"
                 ]
               ]
@@ -99,7 +98,8 @@
                 {
                   "Effect": "Allow",
                   "Action": [
-                    "logs:CreateLogStream"
+                    "logs:CreateLogStream",
+                    "logs:CreateLogGroup"
                   ],
                   "Resource": [
                     {
@@ -127,8 +127,7 @@
           "Fn::Join": [
             "-",
             [
-              "pece-doctor-signup",
-              "dev",
+              "pece-doctor-signup-dev",
               {
                 "Ref": "AWS::Region"
               },
@@ -145,7 +144,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/pece-doctor-signup/dev/1587454892620-2020-04-21T07:41:32.620Z/pece-doctor-signup.zip"
+          "S3Key": "serverless/pece-doctor-signup/dev/1587988378715-2020-04-27T11:52:58.715Z/pece-doctor-signup.zip"
         },
         "FunctionName": "pece-doctor-signup-dev-api",
         "Handler": "lambda.universal",
@@ -164,14 +163,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "ApiLambdaVersionGroOyxghsjwBA8NBgJJgAuDT2baVbYd6dmIQo1ubYE": {
+    "ApiLambdaVersionpb1nCNPtpLMITXtTZ0oJsW5EBE4xP5Are5Ntn3uEo": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "9XRNe7Hi5mJdkviJYdGHS/9j4l131RCiwexN2vhQMgI="
+        "CodeSha256": "i1CvRH5h+qVN5rDBmr3N0JmSMmXHPeN117WSqT/5i+0="
       }
     },
     "ApiGatewayRestApi": {
@@ -182,7 +181,8 @@
           "Types": [
             "EDGE"
           ]
-        }
+        },
+        "Policy": ""
       }
     },
     "ApiGatewayResourceProxyVar": {
@@ -289,7 +289,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1587454843972": {
+    "ApiGatewayDeployment1587988339698": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -349,7 +349,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionGroOyxghsjwBA8NBgJJgAuDT2baVbYd6dmIQo1ubYE"
+        "Ref": "ApiLambdaVersionpb1nCNPtpLMITXtTZ0oJsW5EBE4xP5Are5Ntn3uEo"
       }
     },
     "ServiceEndpoint": {

@@ -1,74 +1,74 @@
  
 @font-face {
     font-family: 'RalewayBold';
-    src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
-    url('../fonts/Raleway-Bold.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Raleway-Bold.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Raleway-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'RalewaySemiBold';
-    src: url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
-    url('../fonts/Raleway-SemiBold.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Raleway-SemiBold.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Raleway-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'RalewayMedium';
-    src: url('../fonts/Raleway-Medium.woff2') format('woff2'),
-    url('../fonts/Raleway-Medium.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Raleway-Medium.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Raleway-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
  
 @font-face {
     font-family: 'RalewayRegular';
-    src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
-    url('../fonts/Raleway-Regular.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Raleway-Regular.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Raleway-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'MontserratBold';
-    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
-    url('../fonts/Montserrat-Bold.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Montserrat-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'MontserratRegular';
-    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
-    url('../fonts/Montserrat-Regular.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Montserrat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'MontserratSemibold';
-    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
-    url('../fonts/Montserrat-SemiBold.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Montserrat-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'BarlowExBold';
-    src: url('../fonts/Barlow-ExtraBold.woff2') format('woff2'),
-        url('../fonts/Barlow-ExtraBold.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Barlow-ExtraBold.woff2') format('woff2'),
+        url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Barlow-ExtraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'LatoBlack';
-    src: url('../fonts/Lato-Black.woff2') format('woff2'),
-        url('../fonts/Lato-Black.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Lato-Black.woff2') format('woff2'),
+        url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Lato-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'LatoRegular';
-    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
-        url('../fonts/Lato-Regular.woff') format('woff');
+    src: url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Lato-Regular.woff2') format('woff2'),
+        url('https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/fonts/Lato-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
