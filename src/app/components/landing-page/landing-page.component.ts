@@ -7,6 +7,10 @@ import {FormControl, Validators} from '@angular/forms';
   styleUrls: ['./landing-page.component.css']
 })
 export class LandingPageComponent implements OnInit {
+  // scroll(el: HTMLElement) {
+  //   el.scrollIntoView({behavior: "smooth"});
+  // }
+
 
 public reportView:any=[
   {id:'1', images:'https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/report1.jpg'},
@@ -41,6 +45,7 @@ public reportView:any=[
   scrollToElement($element): void {
     $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
+  
  
 }
 

@@ -15,4 +15,5 @@ right: 0; top: 34%; }
 
 @media screen and (max-width: 776px){
     .footer_wrapper { width: 90%; }
+    .footer_wrapper p { white-space: normal; text-align: center; line-height: 20px;  }
 }
