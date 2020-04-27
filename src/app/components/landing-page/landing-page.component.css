@@ -637,6 +637,8 @@ text-align: center; margin: 0; }
   .ad_test_component .contaner .ins_content .down_p { font-size: 20px; }
   .headerBGmain { font-size: 24px; }
   .video_gallery .in_video_wrp_r .data_list .seperation .mat-list-item { font-size: 14px; }
+  .fr_wrpr .inner_wrapper .r_er .form_title {
+    font-size: 20px; }
 }
 
 @media screen and (max-width: 360px){
