@@ -598,7 +598,7 @@ text-align: center; margin: 0; }
 
 @media screen and (max-width: 500px){
   .adi_test_wrapper .stetho_with { top: 0; display: none; }
-  .land_top_header button { line-height: 16px; font-size: 16px; width: 50%; box-sizing: border-box; } 
+  .land_top_header button { line-height: 16px; font-size: 10px; width: 50%; box-sizing: border-box; } 
   .fr_wrpr { background-position: center 0; padding-top: 100%;}
   .fr_wrpr .inner_wrapper .l_er .in_right .top_title { font-size: 28px; line-height: initial; }
   .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: initial; font-size: 20px; padding: 10px; }
@@ -642,6 +642,6 @@ text-align: center; margin: 0; }
 }
 
 @media screen and (max-width: 360px){
-  .land_top_header button { line-height: 16px; font-size: 14px; padding:10px 5px;}
+  /* .land_top_header button { line-height: 16px; font-size: 14px; padding:10px 5px;} */
   .ats_top p { font-size: 20px; }
 }
