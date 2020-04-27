@@ -628,4 +628,10 @@ text-align: center; margin: 0; }
   .video_gallery .in_video_wrp_l .video_title { width: 100%; margin: 0px auto 20px; font-size: 36px; line-height: initial; }
   .ad_test_component .contaner .ins_content .down_p { font-size: 20px; }
   .headerBGmain { font-size: 24px; }
+  .video_gallery .in_video_wrp_r .data_list .seperation .mat-list-item { font-size: 14px; }
+}
+
+@media screen and (max-width: 360px){
+  .land_top_header button { line-height: 16px; font-size: 14px;}
+  .ats_top p { font-size: 20px; }
 }
