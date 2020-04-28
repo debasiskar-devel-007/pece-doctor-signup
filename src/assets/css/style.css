@@ -84,3 +84,4 @@ color: #000; }
     padding: 0px 0 20px;
 }
 .fr_wrpr .inner_wrapper .r_er .m_form .mat-error { margin-top: -4px; font-size: 14px; }
+.mat-dialog-container { padding: 16px!important;}
