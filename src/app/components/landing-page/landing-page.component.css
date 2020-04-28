@@ -366,7 +366,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
   .wewlcm_wrapper { background-position: 162% center; }
 }
 @media screen and (max-width: 1400px){ 
-
+  .land_top_header button { padding: 10px; }
 .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: 40px; font-size: 34px; }
 .fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 23px 60px; font-size: 26px; line-height: 30px; }
 .fr_wrpr .inner_wrapper .r_er .m_form button { font-size: 42px; padding: 14px 10px; }
