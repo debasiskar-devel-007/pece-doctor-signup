@@ -6,7 +6,7 @@
     },
     "provider": {
       "stage": "dev",
-      "variableSyntax": "\\${([ ~:a-zA-Z0-9._@'\",\\-\\/\\(\\)*?]+?)}",
+      "variableSyntax": "\\${([^{}]+?)}",
       "name": "aws",
       "runtime": "nodejs10.x",
       "memorySize": 192,
@@ -103,8 +103,7 @@
                     "Fn::Join": [
                       "-",
                       [
-                        "dev",
-                        "pece-doctor-signup",
+                        "pece-doctor-signup-dev",
                         "lambda"
                       ]
                     ]
@@ -115,7 +114,8 @@
                       {
                         "Effect": "Allow",
                         "Action": [
-                          "logs:CreateLogStream"
+                          "logs:CreateLogStream",
+                          "logs:CreateLogGroup"
                         ],
                         "Resource": [
                           {
@@ -143,8 +143,7 @@
                 "Fn::Join": [
                   "-",
                   [
-                    "pece-doctor-signup",
-                    "dev",
+                    "pece-doctor-signup-dev",
                     {
                       "Ref": "AWS::Region"
                     },
@@ -161,7 +160,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/pece-doctor-signup/dev/1587454892620-2020-04-21T07:41:32.620Z/pece-doctor-signup.zip"
+                "S3Key": "serverless/pece-doctor-signup/dev/1587997294825-2020-04-27T14:21:34.825Z/pece-doctor-signup.zip"
               },
               "FunctionName": "pece-doctor-signup-dev-api",
               "Handler": "lambda.universal",
@@ -180,14 +179,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ApiLambdaVersionGroOyxghsjwBA8NBgJJgAuDT2baVbYd6dmIQo1ubYE": {
+          "ApiLambdaVersionmC9xdVU8wJwDMUHP3NimMePmISOlGHI4ns7NU8": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "9XRNe7Hi5mJdkviJYdGHS/9j4l131RCiwexN2vhQMgI="
+              "CodeSha256": "0YNKv/cqwIVSjAvwNzWom6zYAPp2uGoxCEXgLJ4iL+k="
             }
           },
           "ApiGatewayRestApi": {
@@ -198,7 +197,8 @@
                 "Types": [
                   "EDGE"
                 ]
-              }
+              },
+              "Policy": ""
             }
           },
           "ApiGatewayResourceProxyVar": {
@@ -305,7 +305,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1587454843972": {
+          "ApiGatewayDeployment1587997254892": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -365,7 +365,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersionGroOyxghsjwBA8NBgJJgAuDT2baVbYd6dmIQo1ubYE"
+              "Ref": "ApiLambdaVersionmC9xdVU8wJwDMUHP3NimMePmISOlGHI4ns7NU8"
             }
           },
           "ServiceEndpoint": {
@@ -489,15 +489,17 @@
         "memory": 192,
         "timeout": 10,
         "runtime": "nodejs10.x",
-        "vpc": {}
+        "vpc": {},
+        "versionLogicalId": "ApiLambdaVersionmC9xdVU8wJwDMUHP3NimMePmISOlGHI4ns7NU8"
       }
     },
     "serviceFilename": "serverless.yml",
     "layers": {},
-    "artifact": "/home/influx/Documents/all_project/DNA/pece_doctor_signup/.serverless/pece-doctor-signup.zip"
+    "isDashboardMonitoringPreconfigured": false,
+    "artifact": "/var/www/html/project/pece-doctor-signup/.serverless/pece-doctor-signup.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/pece-doctor-signup/dev/1587454892620-2020-04-21T07:41:32.620Z",
+    "artifactDirectoryName": "serverless/pece-doctor-signup/dev/1587997294825-2020-04-27T14:21:34.825Z",
     "artifact": "pece-doctor-signup.zip"
   }
 }

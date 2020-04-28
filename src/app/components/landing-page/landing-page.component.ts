@@ -13,10 +13,10 @@ export class LandingPageComponent implements OnInit {
 
 
 public reportView:any=[
-  {id:'1', images:'../../../assets/images/report1.jpg'},
-  {id:'2', images:'../../../assets/images/report2.jpg'},
-  {id:'3', images:'../../../assets/images/report3.jpg'},
-  {id:'4', images:'../../../assets/images/report4.jpg'},
+  {id:'1', images:'https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/report1.jpg'},
+  {id:'2', images:'https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/report2.jpg'},
+  {id:'3', images:'https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/report3.jpg'},
+  {id:'4', images:'https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/report4.jpg'},
 ];
   constructor( public dialog:MatDialog) { }
 
