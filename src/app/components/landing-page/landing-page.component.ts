@@ -1,6 +1,8 @@
 import { Component, OnInit, Inject, HostListener } from '@angular/core';
 import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import {FormControl, Validators} from '@angular/forms';
+import { MetaService } from '@ngx-meta/core';
+
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
@@ -18,7 +20,12 @@ public reportView:any=[
   {id:'3', images:'https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/report3.jpg'},
   {id:'4', images:'https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/report4.jpg'},
 ];
-  constructor( public dialog:MatDialog) { }
+  constructor(public dialog: MatDialog, public meta: MetaService) {
+    /* Set Meta Data */
+    this.meta.setTitle('AWS - Diagnostic Center Services');
+    this.meta.setTag('description', 'The Advanced Wellness Solutions Smart Engagement Form available to doctors through Diagnostic Center Services offers Actionable Data for Doctors and Physicians to utilize for better treatment of their patients.');
+    this.meta.setTag('keywords', 'Diagnostic Center Services AWS, AWS Diagnostic Center Services, Advanced Wellness Solutions Diagnostic Center Services.');
+  }
 
   email = new FormControl('', [Validators.required, Validators.email]);
 
