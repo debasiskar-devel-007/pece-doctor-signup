@@ -18,7 +18,7 @@
 .estab_wrapper, .ad_test_component, .images_wrapper{ box-shadow: none; }
 .land_top_header{padding: 0; height: inherit; border: 1px solid #fff; justify-content: space-between; align-items: inherit;}
 .land_top_header button{ border-radius: 0; font-size: 20px; color: #fff; text-transform: uppercase;
-border-right: 1px solid #fff; font-family: 'RalewayBold'; padding: 10px 18px; }
+border-right: 1px solid #fff; font-family: 'RalewayBold'; padding: 10px 18px;  }
 .land_top_header button:nth-child(1){ background: linear-gradient(0deg, #ed3062, #f14f74); } 
 .land_top_header button:nth-child(2){ background: linear-gradient(0deg, #fe642c, #f6951b); } 
 .land_top_header button:nth-child(3){ background: linear-gradient(0deg, #f7d91f, #fec206); color: #000; } 
@@ -366,7 +366,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
   .wewlcm_wrapper { background-position: 162% center; }
 }
 @media screen and (max-width: 1400px){ 
-
+  .land_top_header button { padding: 10px; }
 .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: 40px; font-size: 34px; }
 .fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 23px 60px; font-size: 26px; line-height: 30px; }
 .fr_wrpr .inner_wrapper .r_er .m_form button { font-size: 42px; padding: 14px 10px; }
@@ -507,7 +507,10 @@ line-height: 34px; box-sizing: border-box; }
 }
 
 @media screen and (max-width: 992px){
-
+  .land_top_header {flex-wrap: wrap; }
+  .land_top_header button { width: 25%; }
+  .ats_top{ padding: 16px; }
+  .ats_top p { font-size: 22px; margin: 0; }
 /* .high_pre_wrapper .inner_wr .diagrme .diagram_content { background: none; } */
 
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(1)::after,
@@ -527,13 +530,15 @@ line-height: 34px; box-sizing: border-box; }
 .adi_test_wrapper .in_wrappr .rm_3a_wr span { margin-left: inherit; width: 100%; margin-bottom: 30px; }
 .fr_wrpr .inner_wrapper .l_er .arrow_bg { text-align: center; }
 .fr_wrpr .inner_wrapper .l_er .arrow_bg br{ display:none; }
+.nurvous_wrapper .inner_item .titles { min-height: 60px; }
+
 }
 
 @media screen and (max-width: 840px){
 .high_pre_wrapper .inner_wr .header_desc { flex-direction: column-reverse; }
 .high_pre_wrapper .inner_wr .header_desc .headerBGmain { margin-top: 20px;  width: 90%; }
 .land_top_header { flex-wrap: wrap; justify-content: center; }
-.land_top_header button { width: 33%; }
+.land_top_header button { width: 33.33%; flex-shrink: 0; flex-grow: 1; }
 .images_wrapper .inner_tp_wr .style_header::before,
 .images_wrapper .inner_tp_wr .style_header::after{ display: none}
 .images_wrapper .inner_tp_wr .style_header { width: 95%; box-sizing: border-box; }
@@ -541,6 +546,7 @@ line-height: 34px; box-sizing: border-box; }
 }
 
 @media screen and (max-width: 776px){ 
+  .adi_test_wrapper .stetho_with { width: 160px; right: 16px;}
 .high_pre_wrapper .inner_wr .header_desc .headerBGmain { width: 100%; }
 .high_pre_wrapper .inner_wr .header_desc .headerBGmain::after{ display: none;}
 .high_pre_wrapper .inner_wr .diagrme .diagram_content { background: none; }
@@ -562,7 +568,7 @@ text-align: center; margin: 0; }
 }
 
 @media screen and (max-width: 668px){ 
-  .ats_top p { margin: 10px 16px; font-size: 22px; }
+  .ats_top p { font-size: 22px; }
   .fr_wrpr { padding-top: 65%; }
   .fr_wrpr .inner_wrapper .l_er .in_right .top_title { font-size: 40px; line-height: 44px; }
   .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: 34px; font-size: 28px; }
@@ -596,9 +602,12 @@ text-align: center; margin: 0; }
 
 }
 
+@media screen and (max-width: 576px){
+  .land_top_header button { line-height: 16px; font-size: 10px; width: 50%; box-sizing: border-box; } 
+
+}
 @media screen and (max-width: 500px){
   .adi_test_wrapper .stetho_with { top: 0; display: none; }
-  .land_top_header button { line-height: 16px; font-size: 10px; width: 50%; box-sizing: border-box; } 
   .fr_wrpr { background-position: center 0; padding-top: 100%;}
   .fr_wrpr .inner_wrapper .l_er .in_right .top_title { font-size: 28px; line-height: initial; }
   .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: initial; font-size: 20px; padding: 10px; }
@@ -641,7 +650,13 @@ text-align: center; margin: 0; }
     font-size: 20px; }
 }
 
-@media screen and (max-width: 360px){
-  /* .land_top_header button { line-height: 16px; font-size: 14px; padding:10px 5px;} */
+@media screen and (max-width: 360px){ 
   .ats_top p { font-size: 20px; }
+  .high_pre_wrapper .inner_wr .diagrme { padding: 14px; }
+  .high_pre_wrapper .inner_wr .diagrme .diagram_content .items { padding: 0; }
+  .high_pre_wrapper .inner_wr .diagrme .diagram_content .items .bg { padding: 10px; margin-bottom: 16px; } 
+  .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:last-child .bg {margin-bottom: 0px; } 
+  .estab_wrapper .inner_wr .estab_in_wrapper .sign_up p br{ display: none;}
+  .estab_wrapper .inner_wr .estab_in_wrapper .sign_up p { padding: 0 4px; width: auto;}
+
 }
