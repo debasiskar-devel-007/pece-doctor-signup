@@ -298,7 +298,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .inner_wrap .mat-card-title { font-size: 22px; box-sizing: border-box; white-space: normal; word-break: break-word;}
 .ad_test_component{ background-position: 115% top; }
 .high_pre_wrapper { background-position: 75% center; }
-.high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(2)::after {  width: 180px; height: 9px; bottom: 70px; right: 20px; }
+.high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(2)::after { width: 180px; height: 9px; bottom: 70px; right: 20px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(1)::after { width: 180px; height: 80px; right: 20px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(3)::after { width: 170px; height: 85px; top: 25px; right: 36px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(4)::after { width: 175px; height: 45px;  bottom: 45px; right: 30px; }
@@ -307,7 +307,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(6)::after { width: 194px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(5)::after { width: 190px; }
 .wewlcm_wrapper { background-position: 118% center; }
-.fr_wrpr .inner_wrapper .l_er .in_right .paragraph { width: 80%; margin-left: auto; }
+.fr_wrpr .inner_wrapper .l_er .in_right .paragraph { width: 90%; margin-left: auto; }
 .fr_wrpr .inner_wrapper .l_er .in_right .top_title { font-size: 56px; }
 
 }
@@ -439,7 +439,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .fr_wrpr { background-position: 0% 6%; background-size: 600px; }
 .fr_wrpr .inner_wrapper .l_er .flx_wrapper .in_right { width: 100%; } 
 .fr_wrpr .inner_wrapper .l_er .in_right .paragraph { margin: 20px 0; }
-.fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 20px 60px 24px; font-size: 28px; line-height: 40px; }
+.fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 20px 60px 22px; font-size: 28px; line-height: 34px; text-align: center; }
 .fr_wrpr .inner_wrapper .r_er { width: 100%; margin-top: 30px; }
 .fr_wrpr .inner_wrapper .r_er .form_title { font-size: 46px; }
 .video_gallery { display: flex; flex-direction: column; }
@@ -498,7 +498,8 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .fr_wrpr .inner_wrapper .l_er .in_right .subtitle br{ display: none;}
 .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: 38px; font-size: 34px; margin: 20px 0; }
 .fr_wrpr .inner_wrapper .l_er .in_right .paragraph { font-size: 30px; }
-.fr_wrpr .inner_wrapper .l_er .arrow_bg { background: linear-gradient(180deg, #fd9320, #fd562b);}
+.fr_wrpr .inner_wrapper .l_er .arrow_bg { background: linear-gradient(180deg, #fd9320, #fd562b); border: 3px solid #ffea00;    padding: 12px;
+  line-height: inherit; }
 .estab_wrapper { background-position: center; background: linear-gradient(45deg, #f7fbff, #fbfefd); }
 .estab_wrapper .inner_wr .estab_in_wrapper { width: auto; margin-left: initial; }
 .estab_wrapper .inner_wr .estab_in_wrapper .sign_up { margin: 0;}

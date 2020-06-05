@@ -194,7 +194,7 @@
                     </mat-form-field>
 
                     <mat-form-field class="example-full-width">
-                        <input matInput type="text" formControlName="password" placeholder="Password:">
+                        <input matInput type="password" formControlName="password" placeholder="Password:">
 
                         <mat-error *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.required">
                             Password required.
