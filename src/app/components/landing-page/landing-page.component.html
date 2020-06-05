@@ -70,38 +70,152 @@
                     patient test in one place.
                 </mat-card-subtitle>
 
-                <form class="m_form">
+                <form class="m_form" [formGroup]="doctorSignUpForm" (ngSubmit)="createDoctor();">
                     <mat-form-field class="example-full-width">
-                        <input matInput placeholder="First Name:">
-                    </mat-form-field>
-                    <mat-form-field class="example-full-width">
-                        <input matInput placeholder="Last Name:">
-                    </mat-form-field>
-                    <mat-form-field class="example-full-width">
-                        <input matInput type="email" [formControl]="email" placeholder="Email:">
-                        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
-                    </mat-form-field>
-                    <mat-form-field class="example-full-width">
-                        <input matInput placeholder="Phone Number:">
-                    </mat-form-field>
-                    <mat-form-field class="example-full-width">
-                        <input matInput placeholder="NPI:">
-                    </mat-form-field>
-                    <mat-form-field class="example-full-width">
-                        <input matInput placeholder="Address:">
-                    </mat-form-field>
-                    <mat-form-field class="example-full-width">
-                        <input matInput placeholder="State:">
-                    </mat-form-field>
-                    <mat-form-field class="example-full-width">
-                        <input matInput placeholder="City:">
-                    </mat-form-field>
-                    <mat-form-field class="example-full-width">
-                        <input matInput placeholder="Zip:">
+                        <input type="text" formControlName="firstname" matInput placeholder="First Name:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['firstname'].touched && !doctorSignUpForm.controls['firstname'].valid && doctorSignUpForm.controls['firstname'].errors.required">
+                            First name required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['firstname'].touched && !doctorSignUpForm.controls['firstname'].valid && doctorSignUpForm.controls['firstname'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
                     </mat-form-field>
 
+                    <mat-form-field class="example-full-width">
+                        <input type="text" formControlName="lastname" matInput placeholder="Last Name:">
 
-                    <button mat-button>submit</button>
+                        <mat-error *ngIf="doctorSignUpForm.controls['lastname'].touched && !doctorSignUpForm.controls['lastname'].valid && doctorSignUpForm.controls['lastname'].errors.required">
+                            Last name required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['lastname'].touched && !doctorSignUpForm.controls['lastname'].valid && doctorSignUpForm.controls['lastname'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="example-full-width">
+                        <input type="text" formControlName="practice_name" matInput placeholder="Practice Name:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['practice_name'].touched && !doctorSignUpForm.controls['practice_name'].valid && doctorSignUpForm.controls['practice_name'].errors.required">
+                            Practice name required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['practice_name'].touched && !doctorSignUpForm.controls['practice_name'].valid && doctorSignUpForm.controls['practice_name'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="text" formControlName="email" placeholder="Email:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['email'].touched && !doctorSignUpForm.controls['email'].valid && doctorSignUpForm.controls['email'].errors.required">
+                            Email required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['email'].touched && !doctorSignUpForm.controls['email'].valid && doctorSignUpForm.controls['email'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="text" formControlName="phone" placeholder="Phone Number:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['phone'].touched && !doctorSignUpForm.controls['phone'].valid && doctorSignUpForm.controls['phone'].errors.required">
+                            Phone number required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['phone'].touched && !doctorSignUpForm.controls['phone'].valid && doctorSignUpForm.controls['phone'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="text" formControlName="npi" placeholder="NPI:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['npi'].touched && !doctorSignUpForm.controls['npi'].valid && doctorSignUpForm.controls['npi'].errors.required">
+                            NPI required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['npi'].touched && !doctorSignUpForm.controls['npi'].valid && doctorSignUpForm.controls['npi'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="text" formControlName="address" placeholder="Address:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['address'].touched && !doctorSignUpForm.controls['address'].valid && doctorSignUpForm.controls['address'].errors.required">
+                            Address required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['address'].touched && !doctorSignUpForm.controls['address'].valid && doctorSignUpForm.controls['address'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="text" formControlName="state" placeholder="State:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['state'].touched && !doctorSignUpForm.controls['state'].valid && doctorSignUpForm.controls['state'].errors.required">
+                            State required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['state'].touched && !doctorSignUpForm.controls['state'].valid && doctorSignUpForm.controls['state'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="text" formControlName="city" placeholder="City:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['city'].touched && !doctorSignUpForm.controls['city'].valid && doctorSignUpForm.controls['city'].errors.required">
+                            City required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['city'].touched && !doctorSignUpForm.controls['city'].valid && doctorSignUpForm.controls['city'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="text" formControlName="zip" placeholder="Zip:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['zip'].touched && !doctorSignUpForm.controls['zip'].valid && doctorSignUpForm.controls['zip'].errors.required">
+                            ZIP required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['zip'].touched && !doctorSignUpForm.controls['zip'].valid && doctorSignUpForm.controls['zip'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="text" formControlName="password" placeholder="Password:">
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.required">
+                            Password required.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.minlength">
+                            At least 6 characters.
+                        </mat-error>
+
+                        <mat-error *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.maxlength">
+                            Reached maximum limit of characters allowed.
+                        </mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field class="example-full-width">
+                        <input matInput type="password" [formControl]="doctorSignUpForm.controls['confirmpassword']" placeholder="Confirm Password:">
+          
+                        <mat-error *ngIf="!doctorSignUpForm.controls['confirmpassword'].valid && doctorSignUpForm.controls['confirmpassword'].touched">
+                          Password does not match
+                        </mat-error>
+                    </mat-form-field>
+
+                    <button type="submit" mat-button>submit</button>
                 </form>
 
 

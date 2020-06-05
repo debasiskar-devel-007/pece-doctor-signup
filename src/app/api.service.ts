@@ -25,6 +25,17 @@ export class ApiService {
       var result =this._http.post(this.getEndpointUrl(endpoint),{source:source,condition:condition}/*JSON.stringify(data)*/).pipe(map(res => res));
       return result;
   } //end postData
+
+  /* call api via post method */
+  httpViaPost(endpoint, jsonData): Observable<any> {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+        'Authorization': 'woking'
+      })
+    };
+    return this._http.post(endpoint, jsonData).pipe(map(res => res));
+  }
   
   
   putData(endpoint:string,data,id:string,is_cache_buster=true){
