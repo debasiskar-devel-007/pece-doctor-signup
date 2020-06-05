@@ -113,12 +113,18 @@ export class LandingPageComponent implements OnInit {
         if (response.status == "success") {
           this.matSnackBar.open('Successfully submited.', 'Ok', {
             duration: 2000,
+            verticalPosition: 'top', 
+            horizontalPosition: 'end', 
+            panelClass: ['success-snackbar'],
           });
 
           this.doctorSignUpForm.reset();
         } else {
           this.matSnackBar.open(response.msg, '', {
             duration: 2000,
+            verticalPosition: 'top', 
+            horizontalPosition: 'end', 
+            panelClass: ['failed-snackbar'],
           });
         }
       }, (error) => {

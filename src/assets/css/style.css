@@ -85,3 +85,9 @@ color: #000; }
 }
 .fr_wrpr .inner_wrapper .r_er .m_form .mat-error { margin-top: -2px; font-size: 12px;}
 .mat-dialog-container { padding: 16px!important;}
+
+.failed-snackbar{ background: #ff2200!important; color: #fff!important; font-family: 'RalewayBold';  box-shadow: none!important;}
+.success-snackbar{  background: #0cc004!important; color: #fff!important; font-family: 'RalewayBold';  box-shadow: none!important;}
+
+.success-snackbar .mat-simple-snackbar-action button,
+.failed-snackbar .mat-simple-snackbar-action button { color: #fff!important;}
