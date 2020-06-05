@@ -280,7 +280,10 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 
 }
 @media screen and (max-width: 1740px){
-.fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: 44px; width: 610px; margin-left: 140px; }
+.fr_wrpr .inner_wrapper .l_er .in_right .subtitle {    line-height: 48px;
+  width: 610px;
+  margin-left: 140px;
+  font-size: 42px;}
 .fr_wrpr .inner_wrapper, .high_pre_wrapper .inner_wr, 
 .estab_wrapper .inner_wr, .ad_test_component .contaner, 
 .adi_test_wrapper .in_wrappr, .wewlcm_wrapper .w_inner_wrapper, 
@@ -304,6 +307,8 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(6)::after { width: 194px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(5)::after { width: 190px; }
 .wewlcm_wrapper { background-position: 118% center; }
+.fr_wrpr .inner_wrapper .l_er .in_right .paragraph { width: 80%; margin-left: auto; }
+.fr_wrpr .inner_wrapper .l_er .in_right .top_title { font-size: 56px; }
 
 }
 @media screen and (max-width: 1640px){ 
@@ -318,7 +323,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
  .ad_test_component .contaner .ins_content { width: 780px; }
  .ins_content .aditional_test { font-size: 48px; }
 
-
+ .fr_wrpr .inner_wrapper .l_er .in_right .paragraph { width: 94%; margin-left: auto; line-height: 36px; }
 }
 
 
@@ -338,7 +343,6 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .nurvous_wrapper .inner_item .titles { font-size: 20px; }
 }
 @media screen and (max-width: 1520px){ 
-.fr_wrpr .inner_wrapper .l_er .in_right .paragraph { margin-top: 34px; line-height: 34px; }
 .fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 10px 60px; font-size: 27px; }
 .fr_wrpr { background-position: -5% center; background-size: 600px; }
 .video_gallery .in_video_wrp_r .ed { font-size: 18px; }
@@ -364,6 +368,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
   .ad_test_component .contaner .ins_content { width: 680px;}
   .adi_test_wrapper .in_wrappr .rm_3a_wr span{ margin-left: inherit; width: 76%;}
   .wewlcm_wrapper { background-position: 162% center; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { font-size: 38px; }
 }
 @media screen and (max-width: 1400px){ 
   .land_top_header button { padding: 10px; }
@@ -384,7 +389,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .ad_test_component .contaner .ins_content .paragraph { font-size: 24px; }
 .ad_test_component .contaner .ins_content .list_content .mat-list .mat-list-item { font-size: 16px; }
 .adi_test_wrapper .in_wrappr .rm_3a_wr span br{ display: none;}
-
+.fr_wrpr .inner_wrapper .l_er .in_right .paragraph { width: 100%; }
 }
 
 @media screen and (max-width: 1366px){ 
@@ -395,7 +400,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .high_pre_wrapper .inner_wr .diagrme { width: 90%; }
 }
 @media screen and (max-width: 1340px){ 
-.fr_wrpr .inner_wrapper .l_er .in_right .paragraph { margin-top: 34px; line-height: 34px; font-size: 20px; }
+.fr_wrpr .inner_wrapper .l_er .in_right .paragraph { font-size: 22px; }
 .land_top_header button { line-height: 20px; font-size: 18px; }
 .ad_test_component .contaner .ins_content { width: 650px;}
 .ad_test_component {
@@ -404,7 +409,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 }
 @media screen and (max-width: 1300px){  
 .fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 23px 60px; font-size: 22px; line-height: 30px; }
-.fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: 48px; font-size: 34px; }
+.fr_wrpr .inner_wrapper .l_er .in_right .subtitle {  line-height: 48px; font-size: 32px; margin-left: 60px; }
 .images_wrapper .top_h_wr { width: 100%; }
 .video_gallery .in_video_wrp_l .video_title { width: 420px; }
 .nurvous_wrapper { margin-left: 30px; }
@@ -413,9 +418,9 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .wewlcm_wrapper .w_inner_wrapper .img_btn { width: 83%; }
 }
 @media screen and (max-width: 1280px){
-  .ad_test_component .contaner .ins_content {
-    width: 580px;
-}
+  .ad_test_component .contaner .ins_content { width: 580px; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .top_title { font-size: 40px; line-height: 56px; }
+  .fr_wrpr .inner_wrapper .l_er .in_right .paragraph { line-height: 38px; font-size: 20px; }
 } 
 @media screen and (max-width: 1240px){ 
 .fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 13px 60px 24px; font-size: 22px; line-height: 30px; }
@@ -473,6 +478,8 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .wewlcm_wrapper .w_inner_wrapper .bottom_desc::before{ display: none;}
 .large_video_wrapper .video_content_wrapper { background-position: center top; padding: 26px 0; padding-left: 0;  padding-top: 83%; background-size: 100%; }
 .nurvous_wrapper .inner_item .titles { font-size: 18px; }
+.fr_wrpr .inner_wrapper .l_er .in_right .subtitle { margin-left: 130px; }
+
 }
 @media screen and (max-width: 1100px){
 
