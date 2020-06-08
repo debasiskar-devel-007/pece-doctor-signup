@@ -144,7 +144,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/pece-doctor-signup/dev/1591273370995-2020-06-04T12:22:50.995Z/pece-doctor-signup.zip"
+          "S3Key": "serverless/pece-doctor-signup/dev/1591358206326-2020-06-05T11:56:46.326Z/pece-doctor-signup.zip"
         },
         "FunctionName": "pece-doctor-signup-dev-api",
         "Handler": "lambda.universal",
@@ -163,14 +163,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "ApiLambdaVersionELDek2hE9TnPIk7DNdEgJMlIWuKfXjXDRcKGRqnjZng": {
+    "ApiLambdaVersionFIeYGWF3CnENrvSs729HT0kOc5nQ3bmrR1hrIXHKcE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "6H1IX09Fzt9k1R5ub/MKkb97FiU8TwbK6DiUZEfEPGk="
+        "CodeSha256": "T6a12D54YJ4W6KV4x6Wj9BFbZ03zGa2axZ7tpRE2I90="
       }
     },
     "ApiGatewayRestApi": {
@@ -289,7 +289,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1591273320650": {
+    "ApiGatewayDeployment1591358050130": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -349,7 +349,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionELDek2hE9TnPIk7DNdEgJMlIWuKfXjXDRcKGRqnjZng"
+        "Ref": "ApiLambdaVersionFIeYGWF3CnENrvSs729HT0kOc5nQ3bmrR1hrIXHKcE"
       }
     },
     "ServiceEndpoint": {

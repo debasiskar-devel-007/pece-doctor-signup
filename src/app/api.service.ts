@@ -14,6 +14,11 @@ export class ApiService {
   public nodesslurl =  environment["api_url"];
   constructor(private _http: HttpClient,public cookie:CookieService) {}
 
+  /* read site setting data */
+  public getSiteSettingData(url): Observable<any> {
+    return this._http.get(url);
+  }
+
   getData(endpoint:string){
     var result = this._http.get(this.getEndpointUrl(endpoint)).pipe(map(res => res));
 

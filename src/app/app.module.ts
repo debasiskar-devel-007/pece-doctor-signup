@@ -16,6 +16,7 @@ import { Router } from '@angular/router';
 import { MetaModule, MetaLoader, MetaStaticLoader, PageTitlePositioning } from '@ngx-meta/core';
 import { LandingPageComponent, ViewDetails } from './components/landing-page/landing-page.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SuccessModalComponent } from './components/landing-page/success-modal/success-modal.component';
 
 export function metaFactory(): MetaLoader {
   return new MetaStaticLoader({
@@ -41,7 +42,8 @@ export function metaFactory(): MetaLoader {
     AppComponent,
     LandingPageComponent,
     ViewDetails,
-    FooterComponent
+    FooterComponent,
+    SuccessModalComponent
   ],
   imports: [
     DemoMaterialModule,
@@ -67,7 +69,7 @@ export function metaFactory(): MetaLoader {
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
   bootstrap: [AppComponent],
-  entryComponents:[ViewDetails]
+  entryComponents:[ViewDetails, SuccessModalComponent]
 })
 export class AppModule {
   constructor(public http: HttpClient, public router: Router) {

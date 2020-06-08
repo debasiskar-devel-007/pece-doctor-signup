@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Family Practice",
+        "value": "Family Practice"
+    },
+    {
+        "name": "General Practitioner",
+        "value": "General Practitioner"
+    },
+    {
+        "name": "Primary Care",
+        "value": "Primary Care"
+    },
+    {
+        "name": "Cardiology",
+        "value": "Cardiology"
+    },
+    {
+        "name": "Neurology",
+        "value": "Neurology"
+    },
+    {
+        "name": "Internal Medicine",
+        "value": "Internal Medicine"
+    },
+    {
+        "name": "Endocrinology",
+        "value": "Endocrinology"
+    },
+    {
+        "name": "Pain Management",
+        "value": "Pain Management"
+    },
+    {
+        "name": "Integrated",
+        "value": "Integrated"
+    },
+    {
+        "name": "Others",
+        "value": "Others"
+    }
+]

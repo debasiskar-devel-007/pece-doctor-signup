@@ -6,9 +6,9 @@
     <button mat-button (click)="scrollToElement(peceWorks)">How PECE Works</button>
     <button mat-button (click)="scrollToElement(sampleReport)">Sample Reports</button>
     <button mat-button (click)="scrollToElement(physicianTaxonomy)">Physician Taxonomies</button>
-    <button mat-button (click)="scrollToElement(doctorRecomendation)" >Doctor Recommendation</button>
+    <button mat-button (click)="scrollToElement(doctorRecomendation)">Doctor Recommendation</button>
 </mat-toolbar>
- 
+
 
 <mat-toolbar class="ats_top container">
     <p>ADVANCED ANS TECHNOLOGY – BETTER PATIENT CARE – INCREASE PRACTICE REVENUE </p>
@@ -20,7 +20,8 @@
         <mat-card-content class="l_er">
             <span class="flx_wrapper">
                 <mat-card-content class="in_left">
-                    <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/dcsLogo.png">
+                    <img
+                        src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/dcsLogo.png">
                 </mat-card-content>
                 <mat-card-content class="in_right">
                     <mat-card-title class="top_title">
@@ -74,11 +75,13 @@
                     <mat-form-field class="example-full-width">
                         <input type="text" formControlName="firstname" matInput placeholder="First Name:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['firstname'].touched && !doctorSignUpForm.controls['firstname'].valid && doctorSignUpForm.controls['firstname'].errors.required">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['firstname'].touched && !doctorSignUpForm.controls['firstname'].valid && doctorSignUpForm.controls['firstname'].errors.required">
                             First name required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['firstname'].touched && !doctorSignUpForm.controls['firstname'].valid && doctorSignUpForm.controls['firstname'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['firstname'].touched && !doctorSignUpForm.controls['firstname'].valid && doctorSignUpForm.controls['firstname'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
@@ -86,11 +89,13 @@
                     <mat-form-field class="example-full-width">
                         <input type="text" formControlName="lastname" matInput placeholder="Last Name:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['lastname'].touched && !doctorSignUpForm.controls['lastname'].valid && doctorSignUpForm.controls['lastname'].errors.required">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['lastname'].touched && !doctorSignUpForm.controls['lastname'].valid && doctorSignUpForm.controls['lastname'].errors.required">
                             Last name required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['lastname'].touched && !doctorSignUpForm.controls['lastname'].valid && doctorSignUpForm.controls['lastname'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['lastname'].touched && !doctorSignUpForm.controls['lastname'].valid && doctorSignUpForm.controls['lastname'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
@@ -98,120 +103,150 @@
                     <mat-form-field class="example-full-width">
                         <input type="text" formControlName="practice_name" matInput placeholder="Practice Name:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['practice_name'].touched && !doctorSignUpForm.controls['practice_name'].valid && doctorSignUpForm.controls['practice_name'].errors.required">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['practice_name'].touched && !doctorSignUpForm.controls['practice_name'].valid && doctorSignUpForm.controls['practice_name'].errors.required">
                             Practice name required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['practice_name'].touched && !doctorSignUpForm.controls['practice_name'].valid && doctorSignUpForm.controls['practice_name'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['practice_name'].touched && !doctorSignUpForm.controls['practice_name'].valid && doctorSignUpForm.controls['practice_name'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
-                    
+
                     <mat-form-field class="example-full-width">
                         <input matInput type="text" formControlName="email" placeholder="Email:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['email'].touched && !doctorSignUpForm.controls['email'].valid && doctorSignUpForm.controls['email'].errors.required">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['email'].touched && !doctorSignUpForm.controls['email'].valid && doctorSignUpForm.controls['email'].errors.required">
                             Email required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['email'].touched && !doctorSignUpForm.controls['email'].valid && doctorSignUpForm.controls['email'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['email'].touched && !doctorSignUpForm.controls['email'].valid && doctorSignUpForm.controls['email'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
-                    
+
                     <mat-form-field class="example-full-width">
                         <input matInput type="text" formControlName="phone" placeholder="Phone Number:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['phone'].touched && !doctorSignUpForm.controls['phone'].valid && doctorSignUpForm.controls['phone'].errors.required">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['phone'].touched && !doctorSignUpForm.controls['phone'].valid && doctorSignUpForm.controls['phone'].errors.required">
                             Phone number required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['phone'].touched && !doctorSignUpForm.controls['phone'].valid && doctorSignUpForm.controls['phone'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['phone'].touched && !doctorSignUpForm.controls['phone'].valid && doctorSignUpForm.controls['phone'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
-                    
+
                     <mat-form-field class="example-full-width">
                         <input matInput type="text" formControlName="npi" placeholder="NPI:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['npi'].touched && !doctorSignUpForm.controls['npi'].valid && doctorSignUpForm.controls['npi'].errors.required">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['npi'].touched && !doctorSignUpForm.controls['npi'].valid && doctorSignUpForm.controls['npi'].errors.required">
                             NPI required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['npi'].touched && !doctorSignUpForm.controls['npi'].valid && doctorSignUpForm.controls['npi'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['npi'].touched && !doctorSignUpForm.controls['npi'].valid && doctorSignUpForm.controls['npi'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
-                    
+
                     <mat-form-field class="example-full-width">
                         <input matInput type="text" formControlName="address" placeholder="Address:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['address'].touched && !doctorSignUpForm.controls['address'].valid && doctorSignUpForm.controls['address'].errors.required">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['address'].touched && !doctorSignUpForm.controls['address'].valid && doctorSignUpForm.controls['address'].errors.required">
                             Address required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['address'].touched && !doctorSignUpForm.controls['address'].valid && doctorSignUpForm.controls['address'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['address'].touched && !doctorSignUpForm.controls['address'].valid && doctorSignUpForm.controls['address'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
-                    
-                    <mat-form-field class="example-full-width">
-                        <input matInput type="text" formControlName="state" placeholder="State:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['state'].touched && !doctorSignUpForm.controls['state'].valid && doctorSignUpForm.controls['state'].errors.required">
+                    <!-- State Field Start -->
+                    <mat-form-field class="example-full-width">
+                        <mat-select formControlName="state" (selectionChange)="getCity($event.value);" placeholder="Select State">
+                            <mat-option *ngFor="let state of states;" value="{{ state.name }}">{{ state.name }}
+                            </mat-option>
+                        </mat-select>
+
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['state'].touched && !doctorSignUpForm.controls['state'].valid && doctorSignUpForm.controls['state'].errors.required">
                             State required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['state'].touched && !doctorSignUpForm.controls['state'].valid && doctorSignUpForm.controls['state'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['state'].touched && !doctorSignUpForm.controls['state'].valid && doctorSignUpForm.controls['state'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
-                    
-                    <mat-form-field class="example-full-width">
-                        <input matInput type="text" formControlName="city" placeholder="City:">
+                    <!-- State Field End -->
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['city'].touched && !doctorSignUpForm.controls['city'].valid && doctorSignUpForm.controls['city'].errors.required">
+                    <!-- City Start -->
+                    <mat-form-field class="example-full-width">
+                        <mat-select formControlName="city" placeholder="Select City">
+                            <mat-option *ngFor="let city of cities;" value="{{ city }}">{{ city }}</mat-option>
+                        </mat-select>
+
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['city'].touched && !doctorSignUpForm.controls['city'].valid && doctorSignUpForm.controls['city'].errors.required">
                             City required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['city'].touched && !doctorSignUpForm.controls['city'].valid && doctorSignUpForm.controls['city'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['city'].touched && !doctorSignUpForm.controls['city'].valid && doctorSignUpForm.controls['city'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
-                    
+                    <!-- City End -->
+
                     <mat-form-field class="example-full-width">
                         <input matInput type="text" formControlName="zip" placeholder="Zip:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['zip'].touched && !doctorSignUpForm.controls['zip'].valid && doctorSignUpForm.controls['zip'].errors.required">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['zip'].touched && !doctorSignUpForm.controls['zip'].valid && doctorSignUpForm.controls['zip'].errors.required">
                             ZIP required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['zip'].touched && !doctorSignUpForm.controls['zip'].valid && doctorSignUpForm.controls['zip'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['zip'].touched && !doctorSignUpForm.controls['zip'].valid && doctorSignUpForm.controls['zip'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
 
                     <mat-form-field class="example-full-width">
-                        <input matInput type="text" formControlName="password" placeholder="Password:">
+                        <input matInput type="password" formControlName="password" placeholder="Password:">
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.required">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.required">
                             Password required.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.minlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.minlength">
                             At least 6 characters.
                         </mat-error>
 
-                        <mat-error *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.maxlength">
+                        <mat-error
+                            *ngIf="doctorSignUpForm.controls['password'].touched && !doctorSignUpForm.controls['password'].valid && doctorSignUpForm.controls['password'].errors.maxlength">
                             Reached maximum limit of characters allowed.
                         </mat-error>
                     </mat-form-field>
 
                     <mat-form-field class="example-full-width">
-                        <input matInput type="password" [formControl]="doctorSignUpForm.controls['confirmpassword']" placeholder="Confirm Password:">
-          
-                        <mat-error *ngIf="!doctorSignUpForm.controls['confirmpassword'].valid && doctorSignUpForm.controls['confirmpassword'].touched">
-                          Password does not match
+                        <input matInput type="password" [formControl]="doctorSignUpForm.controls['confirmpassword']"
+                            placeholder="Confirm Password:">
+
+                        <mat-error
+                            *ngIf="!doctorSignUpForm.controls['confirmpassword'].valid && doctorSignUpForm.controls['confirmpassword'].touched">
+                            Password does not match
                         </mat-error>
                     </mat-form-field>
 
@@ -225,503 +260,520 @@
 </mat-card>
 <!-- end top part -->
 <section #earlyDetection>
-<mat-card class="bg_video_wrapper" >
-    <mat-card-content class="video_gallery">
-        <mat-card-content class="in_video_wrp_l">
-            <mat-card-title class="video_title"> watch this video! </mat-card-title>
+    <mat-card class="bg_video_wrapper">
+        <mat-card-content class="video_gallery">
+            <mat-card-content class="in_video_wrp_l">
+                <mat-card-title class="video_title"> watch this video! </mat-card-title>
 
-            <mat-card-content class="video_con">
-                <iframe src="https://www.youtube.com/embed/3fnab65WzU8" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <mat-card-content class="video_con">
+                    <iframe src="https://www.youtube.com/embed/3fnab65WzU8" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </mat-card-content>
+            </mat-card-content>
+            <mat-card-content class="in_video_wrp_r">
+                <mat-card-title class="video_desc_title">
+                    EARLY DETECTION WILL ALLOW YOU TO IDENTIFY SYMPTOMS AND DISEASE COMPLICATIONS MORE EFFECTIVELY AND
+                    MANAGE RISKS IN SUPPORT OF PREVENTATIVE TREATMENT PLANS FOR:
+                </mat-card-title>
+
+                <mat-list class="data_list">
+                    <span class="seperation">
+                        <mat-list-item>Heart Attack</mat-list-item>
+                        <mat-list-item>Stroke</mat-list-item>
+                        <mat-list-item>Heart Rate Variability Issues</mat-list-item>
+                        <mat-list-item>Angiotensin Activity</mat-list-item>
+                        <mat-list-item>Cardiac Output to Body Surface Area</mat-list-item>
+                        <mat-list-item>Atherosclerosis</mat-list-item>
+                        <mat-list-item>Peripheral Vascular Disease</mat-list-item>
+                        <mat-list-item>Abnormal LDL Cholesterol Levels</mat-list-item>
+
+                    </span>
+
+                    <span class="seperation">
+                        <mat-list-item>Hyperhydrosis & Hypohydrosis</mat-list-item>
+                        <mat-list-item>Insulin Resistance</mat-list-item>
+                        <mat-list-item>Impaired Glucose Intolerance</mat-list-item>
+                        <mat-list-item>Diabetes with Complications</mat-list-item>
+                        <mat-list-item>Nerve Damage</mat-list-item>
+                        <mat-list-item>Physical & Mental Stress and Fatigue</mat-list-item>
+                        <mat-list-item>Obesity</mat-list-item>
+
+                    </span>
+                </mat-list>
+
+                <mat-toolbar class="ed">Early Detection Also Helps To Establish Medical <br>
+                    Necessity for additional In-Depth Patient Testing
+                </mat-toolbar>
+
             </mat-card-content>
         </mat-card-content>
-        <mat-card-content class="in_video_wrp_r">
-            <mat-card-title class="video_desc_title">
-                EARLY DETECTION WILL ALLOW YOU TO IDENTIFY SYMPTOMS AND DISEASE COMPLICATIONS MORE EFFECTIVELY AND
-                MANAGE RISKS IN SUPPORT OF PREVENTATIVE TREATMENT PLANS FOR:
-            </mat-card-title>
-
-            <mat-list class="data_list">
-                <span class="seperation">
-                    <mat-list-item>Heart Attack</mat-list-item>
-                    <mat-list-item>Stroke</mat-list-item>
-                    <mat-list-item>Heart Rate Variability Issues</mat-list-item>
-                    <mat-list-item>Angiotensin Activity</mat-list-item>
-                    <mat-list-item>Cardiac Output to Body Surface Area</mat-list-item>
-                    <mat-list-item>Atherosclerosis</mat-list-item>
-                    <mat-list-item>Peripheral Vascular Disease</mat-list-item>
-                    <mat-list-item>Abnormal LDL Cholesterol Levels</mat-list-item>
-
-                </span>
-
-                <span class="seperation">
-                    <mat-list-item>Hyperhydrosis & Hypohydrosis</mat-list-item>
-                    <mat-list-item>Insulin Resistance</mat-list-item>
-                    <mat-list-item>Impaired Glucose Intolerance</mat-list-item>
-                    <mat-list-item>Diabetes with Complications</mat-list-item>
-                    <mat-list-item>Nerve Damage</mat-list-item>
-                    <mat-list-item>Physical & Mental Stress and Fatigue</mat-list-item>
-                    <mat-list-item>Obesity</mat-list-item>
-
-                </span>
-            </mat-list>
-
-            <mat-toolbar class="ed">Early Detection Also Helps To Establish Medical <br>
-                Necessity for additional In-Depth Patient Testing
-            </mat-toolbar>
-
-        </mat-card-content>
-    </mat-card-content>
-</mat-card>
+    </mat-card>
 </section>
 
 <section #riskFactor>
-<mat-card class="high_pre_wrapper">
-    <mat-card-content class="inner_wr">
-        <mat-toolbar class="header_desc">
-            <span class="headerBGmain">
-                High Precision. This Is All Done In A 10-Minute Scan Which Is
-                Followed Up With An ABI Doppler Scan That Runs For Upto 20
-                Minutes For Some Cases In Peripheral Artery Disease States.
-            </span>
-            <button mat-button class="signup_button" (click)="scrollToElement(target)">signup now</button>
-        </mat-toolbar>
+    <mat-card class="high_pre_wrapper">
+        <mat-card-content class="inner_wr">
+            <mat-toolbar class="header_desc">
+                <span class="headerBGmain">
+                    High Precision. This Is All Done In A 10-Minute Scan Which Is
+                    Followed Up With An ABI Doppler Scan That Runs For Upto 20
+                    Minutes For Some Cases In Peripheral Artery Disease States.
+                </span>
+                <button mat-button class="signup_button" (click)="scrollToElement(target)">signup now</button>
+            </mat-toolbar>
 
-        <mat-card-content class="diagrme">
-            <mat-card-content class="diagram_content">
+            <mat-card-content class="diagrme">
+                <mat-card-content class="diagram_content">
 
-                <mat-toolbar class="items">
-                    <span class="bg">
-                        <mat-card-content class="inner_wrap">
-                            <span class="number">1.</span>
-                            <mat-card-title>Autonomic Nervous <br>
-                                System Dysfunction
-                            </mat-card-title>
-                        </mat-card-content>
-                        <span class="image_wrapper">
-                            <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage1.jpg">
+                    <mat-toolbar class="items">
+                        <span class="bg">
+                            <mat-card-content class="inner_wrap">
+                                <span class="number">1.</span>
+                                <mat-card-title>Autonomic Nervous <br>
+                                    System Dysfunction
+                                </mat-card-title>
+                            </mat-card-content>
+                            <span class="image_wrapper">
+                                <img
+                                    src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage1.jpg">
+                            </span>
+
                         </span>
+                    </mat-toolbar>
+                    <mat-toolbar class="items">
+                        <span class="bg">
+                            <mat-card-content class="inner_wrap">
+                                <span class="number">2.</span>
+                                <mat-card-title>Insulin Resistance </mat-card-title>
+                            </mat-card-content>
+                            <span class="image_wrapper">
+                                <img
+                                    src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage2.jpg">
+                            </span>
 
-                    </span>
-                </mat-toolbar>
-                <mat-toolbar class="items">
-                    <span class="bg">
-                        <mat-card-content class="inner_wrap">
-                            <span class="number">2.</span>
-                            <mat-card-title>Insulin Resistance </mat-card-title>
-                        </mat-card-content>
-                        <span class="image_wrapper">
-                            <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage2.jpg">
                         </span>
+                    </mat-toolbar>
+                    <mat-toolbar class="items">
+                        <span class="bg">
+                            <mat-card-content class="inner_wrap">
+                                <span class="number">3.</span>
+                                <mat-card-title>Endothelial <br>
+                                    Dysfunction. </mat-card-title>
+                            </mat-card-content>
+                            <span class="image_wrapper">
+                                <img
+                                    src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage3.jpg">
+                            </span>
 
-                    </span>
-                </mat-toolbar>
-                <mat-toolbar class="items">
-                    <span class="bg">
-                        <mat-card-content class="inner_wrap">
-                            <span class="number">3.</span>
-                            <mat-card-title>Endothelial <br>
-                                Dysfunction. </mat-card-title>
-                        </mat-card-content>
-                        <span class="image_wrapper">
-                            <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage3.jpg">
                         </span>
+                    </mat-toolbar>
+                    <mat-toolbar class="items">
+                        <span class="bg">
+                            <mat-card-content class="inner_wrap">
+                                <span class="number">4.</span>
+                                <mat-card-title>Sudomotor <br>
+                                    Dysfunction </mat-card-title>
+                            </mat-card-content>
+                            <span class="image_wrapper">
+                                <img
+                                    src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage4.jpg">
+                            </span>
 
-                    </span>
-                </mat-toolbar>
-                <mat-toolbar class="items">
-                    <span class="bg">
-                        <mat-card-content class="inner_wrap">
-                            <span class="number">4.</span>
-                            <mat-card-title>Sudomotor <br>
-                                Dysfunction </mat-card-title>
-                        </mat-card-content>
-                        <span class="image_wrapper">
-                            <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage4.jpg">
                         </span>
+                    </mat-toolbar>
+                    <mat-toolbar class="items">
+                        <span class="bg">
+                            <mat-card-content class="inner_wrap">
+                                <span class="number">5.</span>
+                                <mat-card-title>Cardiac Autonomic <br>
+                                    Neuropathy</mat-card-title>
+                            </mat-card-content>
+                            <span class="image_wrapper">
+                                <img
+                                    src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage5.jpg">
+                            </span>
 
-                    </span>
-                </mat-toolbar>
-                <mat-toolbar class="items">
-                    <span class="bg">
-                        <mat-card-content class="inner_wrap">
-                            <span class="number">5.</span>
-                            <mat-card-title>Cardiac Autonomic <br>
-                                Neuropathy</mat-card-title>
-                        </mat-card-content>
-                        <span class="image_wrapper">
-                            <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage5.jpg">
                         </span>
+                    </mat-toolbar>
+                    <mat-toolbar class="items">
+                        <span class="bg">
+                            <mat-card-content class="inner_wrap">
+                                <span class="number">6.</span>
+                                <mat-card-title>Cardio- Metabolic <br>
+                                    Risk</mat-card-title>
+                            </mat-card-content>
+                            <span class="image_wrapper">
+                                <img
+                                    src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage6.jpg">
+                            </span>
 
-                    </span>
-                </mat-toolbar>
-                <mat-toolbar class="items">
-                    <span class="bg">
-                        <mat-card-content class="inner_wrap">
-                            <span class="number">6.</span>
-                            <mat-card-title>Cardio- Metabolic <br>
-                                Risk</mat-card-title>
-                        </mat-card-content>
-                        <span class="image_wrapper">
-                            <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage6.jpg">
                         </span>
+                    </mat-toolbar>
+                    <mat-toolbar class="items">
+                        <span class="bg">
+                            <mat-card-content class="inner_wrap">
+                                <span class="number">7.</span>
+                                <mat-card-title>Small Fibre <br>
+                                    Neuropathy</mat-card-title>
+                            </mat-card-content>
+                            <span class="image_wrapper">
+                                <img
+                                    src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage7.jpg">
+                            </span>
 
-                    </span>
-                </mat-toolbar>
-                <mat-toolbar class="items">
-                    <span class="bg">
-                        <mat-card-content class="inner_wrap">
-                            <span class="number">7.</span>
-                            <mat-card-title>Small Fibre <br>
-                                Neuropathy</mat-card-title>
-                        </mat-card-content>
-                        <span class="image_wrapper">
-                            <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage7.jpg">
                         </span>
+                    </mat-toolbar>
+                    <mat-toolbar class="items">
+                        <span class="bg">
+                            <mat-card-content class="inner_wrap">
+                                <span class="number">8.</span>
+                                <mat-card-title>Cardio-vascular <br>
+                                    Disease </mat-card-title>
+                            </mat-card-content>
+                            <span class="image_wrapper">
+                                <img
+                                    src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage8.jpg">
+                            </span>
 
-                    </span>
-                </mat-toolbar>
-                <mat-toolbar class="items">
-                    <span class="bg">
-                        <mat-card-content class="inner_wrap">
-                            <span class="number">8.</span>
-                            <mat-card-title>Cardio-vascular <br>
-                                Disease </mat-card-title>
-                        </mat-card-content>
-                        <span class="image_wrapper">
-                            <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/diagramImage8.jpg">
                         </span>
+                    </mat-toolbar>
 
-                    </span>
-                </mat-toolbar>
-
+                </mat-card-content>
             </mat-card-content>
         </mat-card-content>
-    </mat-card-content>
-</mat-card>
+    </mat-card>
 </section>
 
 <!-- end -->
 <section #simptomsChecklist>
-<mat-card-content class="estab_wrapper">
-    <img class="stetho_with" src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/stecho_withDoctor.png">
-    <mat-card-content class="inner_wr">
-        <mat-card-content class="estab_in_wrapper">
-            <mat-toolbar class="sign_up">
-                <button mat-button class="signup_button" (click)="scrollToElement(target)">signup now</button>
-                <span class="estab_text">
-                    ESTABLISHING MEDICAL NECESSITY FOR ORDERING THIS <br>
-                    TEST FOLLOWS A VAST ARRAY OF POTENTIAL SYMPTOMS.
-                </span>
+    <mat-card-content class="estab_wrapper">
+        <img class="stetho_with"
+            src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/stecho_withDoctor.png">
+        <mat-card-content class="inner_wr">
+            <mat-card-content class="estab_in_wrapper">
+                <mat-toolbar class="sign_up">
+                    <button mat-button class="signup_button" (click)="scrollToElement(target)">signup now</button>
+                    <span class="estab_text">
+                        ESTABLISHING MEDICAL NECESSITY FOR ORDERING THIS <br>
+                        TEST FOLLOWS A VAST ARRAY OF POTENTIAL SYMPTOMS.
+                    </span>
 
-                <p>LIST OF SYMPTOMS THAT MEET THE MEDICAL NECESSITY <br>
-                    REQUIREMENTS FOR ADDITIONAL TESTING.
-                </p>
-            </mat-toolbar>
+                    <p>LIST OF SYMPTOMS THAT MEET THE MEDICAL NECESSITY <br>
+                        REQUIREMENTS FOR ADDITIONAL TESTING.
+                    </p>
+                </mat-toolbar>
 
 
 
-        </mat-card-content>
-
-        <mat-card-content class="nurvous_wrapper">
-            <mat-card-content class="inner_item">
-                <mat-card-title class="titles">AUTOMONIC NERVOUS
-                    SYSTEM DYSFUNCTION
-                    (ANSD)</mat-card-title>
-                <mat-list>
-                    <mat-list-item>Blurred Vision </mat-list-item>
-                    <mat-list-item> Elevated Blood Sugar </mat-list-item>
-                    <mat-list-item> Extreme Thirst</mat-list-item>
-                    <mat-list-item> Frequent Urination </mat-list-item>
-                    <mat-list-item> Fatigue (Tiredness)</mat-list-item>
-                    <mat-list-item> Heartburn</mat-list-item>
-                    <mat-list-item> Increased Hunger</mat-list-item>
-                    <mat-list-item> Nausea</mat-list-item>
-                    <mat-list-item>Numbness & Tingling in Hands or Feet</mat-list-item>
-                    <mat-list-item> Vomiting</mat-list-item>
-                </mat-list>
             </mat-card-content>
-            <mat-card-content class="inner_item">
-                <mat-card-title class="titles">ENDOTHELIAL
-                    DYSFUNCTION (ENDOD)</mat-card-title>
-                <mat-list>
-                    <mat-list-item>Angina (severe chest pain, often spreading to shoulder, arm, back, neck, or jaw)
-                    </mat-list-item>
-                    <mat-list-item> Chest Pain that goes away with rest </mat-list-item>
-                    <mat-list-item> Heartburn </mat-list-item>
-                    <mat-list-item>Pain in Calves </mat-list-item>
-                    <mat-list-item> Shortness of Breath </mat-list-item>
-                    <mat-list-item> Stroke</mat-list-item>
-                    <mat-list-item> TIA (mini stroke)</mat-list-item>
 
-                </mat-list>
-            </mat-card-content>
-            <mat-card-content class="inner_item">
-                <mat-card-title class="titles">SUDOMOTOR
-                    DYSFUNCTION (SUDOD)</mat-card-title>
-                <mat-list>
-                    <mat-list-item>Burning Sensation</mat-list-item>
-                    <mat-list-item> Difficulty Digesting Food</mat-list-item>
-                    <mat-list-item> Dizziness or Fainting </mat-list-item>
-                    <mat-list-item> Exercise Intolerance </mat-list-item>
-                    <mat-list-item> Sexual Difficulties</mat-list-item>
-                    <mat-list-item>Sweat Abnormalities</mat-list-item>
-                    <mat-list-item> Tingling Hands & Feet</mat-list-item>
-                    <mat-list-item>Urinary Problems</mat-list-item>
-                </mat-list>
-            </mat-card-content>
-            <mat-card-content class="inner_item">
-                <mat-card-title class="titles">CARDIOMETABOLIC AUTONOMIC NEUROPATHY (CAN)</mat-card-title>
-                <mat-list>
-                    <mat-list-item>Blurred Vision</mat-list-item>
-                    <mat-list-item> Cold, Clammy, Pale Skin</mat-list-item>
-                    <mat-list-item> Depression </mat-list-item>
-                    <mat-list-item>Dizziness or Lightheadedness </mat-list-item>
-                    <mat-list-item>Thirst</mat-list-item>
-                    <mat-list-item>Fainting</mat-list-item>
-                    <mat-list-item> Fatigue (Tiredness)</mat-list-item>
-                    <mat-list-item> Lack of Concentration</mat-list-item>
-                    <mat-list-item> Lack of Energy</mat-list-item>
-                    <mat-list-item>Nausea</mat-list-item>
-                    <mat-list-item>Rapid, Shallow Breathing</mat-list-item>
-                </mat-list>
-            </mat-card-content>
-            <mat-card-content class="inner_item">
-                <mat-card-title class="titles">SMALL FIBER SENSORY
-                    NEUROPATHY (SFN)</mat-card-title>
-                <mat-list>
-                    <mat-list-item>Burning Sensations</mat-list-item>
-                    <mat-list-item>Painful Contact with Socks or Bed Sheets</mat-list-item>
-                    <mat-list-item>Pebble or Sandlike Sensation in Shoes</mat-list-item>
-                    <mat-list-item>Stabbing or Electrical Shock Sensation</mat-list-item>
-                    <mat-list-item>Pins and Needles Sensation in Feet </mat-list-item>
-                </mat-list>
-            </mat-card-content>
-            <mat-card-content class="inner_item">
-                <mat-card-title class="titles">PLETHYSMOGRAPHY
-                    CARDIOVASCULAR
-                    DISEASE (PTG CVD)</mat-card-title>
-                <mat-list>
-                    <mat-list-item>Blood clot in a vein (Venous Thrombosis)</mat-list-item>
-                    <mat-list-item>Heart Attack</mat-list-item>
-                    <mat-list-item> Irregular heartbeat, too fast/slow (Atrial Fibrillation) </mat-list-item>
-                    <mat-list-item>Stroke</mat-list-item>
+            <mat-card-content class="nurvous_wrapper">
+                <mat-card-content class="inner_item">
+                    <mat-card-title class="titles">AUTOMONIC NERVOUS
+                        SYSTEM DYSFUNCTION
+                        (ANSD)</mat-card-title>
+                    <mat-list>
+                        <mat-list-item>Blurred Vision </mat-list-item>
+                        <mat-list-item> Elevated Blood Sugar </mat-list-item>
+                        <mat-list-item> Extreme Thirst</mat-list-item>
+                        <mat-list-item> Frequent Urination </mat-list-item>
+                        <mat-list-item> Fatigue (Tiredness)</mat-list-item>
+                        <mat-list-item> Heartburn</mat-list-item>
+                        <mat-list-item> Increased Hunger</mat-list-item>
+                        <mat-list-item> Nausea</mat-list-item>
+                        <mat-list-item>Numbness & Tingling in Hands or Feet</mat-list-item>
+                        <mat-list-item> Vomiting</mat-list-item>
+                    </mat-list>
+                </mat-card-content>
+                <mat-card-content class="inner_item">
+                    <mat-card-title class="titles">ENDOTHELIAL
+                        DYSFUNCTION (ENDOD)</mat-card-title>
+                    <mat-list>
+                        <mat-list-item>Angina (severe chest pain, often spreading to shoulder, arm, back, neck, or jaw)
+                        </mat-list-item>
+                        <mat-list-item> Chest Pain that goes away with rest </mat-list-item>
+                        <mat-list-item> Heartburn </mat-list-item>
+                        <mat-list-item>Pain in Calves </mat-list-item>
+                        <mat-list-item> Shortness of Breath </mat-list-item>
+                        <mat-list-item> Stroke</mat-list-item>
+                        <mat-list-item> TIA (mini stroke)</mat-list-item>
 
-                </mat-list>
-            </mat-card-content>
-            <mat-card-content class="inner_item">
-                <mat-card-title class="titles">CARDIOMETABOLIC
-                    RISK (CMR)</mat-card-title>
-                <mat-list>
-                    <mat-list-item>Headache</mat-list-item>
-                    <mat-list-item>Dizziness</mat-list-item>
-                    <mat-list-item> Swelling of Ankles </mat-list-item>
-                </mat-list>
-            </mat-card-content>
-            <mat-card-content class="inner_item">
-                <mat-card-title class="titles">INSULIN RESISTANCE
-                    (IR)</mat-card-title>
-                <mat-list>
-                    <mat-list-item>Blurred Vision</mat-list-item>
-                    <mat-list-item>Elevated Blood Sugar</mat-list-item>
-                    <mat-list-item> Lorem, ipsum </mat-list-item>
-                    <mat-list-item>Extreme Thirst</mat-list-item>
-                    <mat-list-item>Fatigue (Tiredness)</mat-list-item>
-                    <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
-                    <mat-list-item>Increased Hunger</mat-list-item>
+                    </mat-list>
+                </mat-card-content>
+                <mat-card-content class="inner_item">
+                    <mat-card-title class="titles">SUDOMOTOR
+                        DYSFUNCTION (SUDOD)</mat-card-title>
+                    <mat-list>
+                        <mat-list-item>Burning Sensation</mat-list-item>
+                        <mat-list-item> Difficulty Digesting Food</mat-list-item>
+                        <mat-list-item> Dizziness or Fainting </mat-list-item>
+                        <mat-list-item> Exercise Intolerance </mat-list-item>
+                        <mat-list-item> Sexual Difficulties</mat-list-item>
+                        <mat-list-item>Sweat Abnormalities</mat-list-item>
+                        <mat-list-item> Tingling Hands & Feet</mat-list-item>
+                        <mat-list-item>Urinary Problems</mat-list-item>
+                    </mat-list>
+                </mat-card-content>
+                <mat-card-content class="inner_item">
+                    <mat-card-title class="titles">CARDIOMETABOLIC AUTONOMIC NEUROPATHY (CAN)</mat-card-title>
+                    <mat-list>
+                        <mat-list-item>Blurred Vision</mat-list-item>
+                        <mat-list-item> Cold, Clammy, Pale Skin</mat-list-item>
+                        <mat-list-item> Depression </mat-list-item>
+                        <mat-list-item>Dizziness or Lightheadedness </mat-list-item>
+                        <mat-list-item>Thirst</mat-list-item>
+                        <mat-list-item>Fainting</mat-list-item>
+                        <mat-list-item> Fatigue (Tiredness)</mat-list-item>
+                        <mat-list-item> Lack of Concentration</mat-list-item>
+                        <mat-list-item> Lack of Energy</mat-list-item>
+                        <mat-list-item>Nausea</mat-list-item>
+                        <mat-list-item>Rapid, Shallow Breathing</mat-list-item>
+                    </mat-list>
+                </mat-card-content>
+                <mat-card-content class="inner_item">
+                    <mat-card-title class="titles">SMALL FIBER SENSORY
+                        NEUROPATHY (SFN)</mat-card-title>
+                    <mat-list>
+                        <mat-list-item>Burning Sensations</mat-list-item>
+                        <mat-list-item>Painful Contact with Socks or Bed Sheets</mat-list-item>
+                        <mat-list-item>Pebble or Sandlike Sensation in Shoes</mat-list-item>
+                        <mat-list-item>Stabbing or Electrical Shock Sensation</mat-list-item>
+                        <mat-list-item>Pins and Needles Sensation in Feet </mat-list-item>
+                    </mat-list>
+                </mat-card-content>
+                <mat-card-content class="inner_item">
+                    <mat-card-title class="titles">PLETHYSMOGRAPHY
+                        CARDIOVASCULAR
+                        DISEASE (PTG CVD)</mat-card-title>
+                    <mat-list>
+                        <mat-list-item>Blood clot in a vein (Venous Thrombosis)</mat-list-item>
+                        <mat-list-item>Heart Attack</mat-list-item>
+                        <mat-list-item> Irregular heartbeat, too fast/slow (Atrial Fibrillation) </mat-list-item>
+                        <mat-list-item>Stroke</mat-list-item>
 
-                </mat-list>
+                    </mat-list>
+                </mat-card-content>
+                <mat-card-content class="inner_item">
+                    <mat-card-title class="titles">CARDIOMETABOLIC
+                        RISK (CMR)</mat-card-title>
+                    <mat-list>
+                        <mat-list-item>Headache</mat-list-item>
+                        <mat-list-item>Dizziness</mat-list-item>
+                        <mat-list-item> Swelling of Ankles </mat-list-item>
+                    </mat-list>
+                </mat-card-content>
+                <mat-card-content class="inner_item">
+                    <mat-card-title class="titles">INSULIN RESISTANCE
+                        (IR)</mat-card-title>
+                    <mat-list>
+                        <mat-list-item>Blurred Vision</mat-list-item>
+                        <mat-list-item>Elevated Blood Sugar</mat-list-item>
+                        <mat-list-item> Lorem, ipsum </mat-list-item>
+                        <mat-list-item>Extreme Thirst</mat-list-item>
+                        <mat-list-item>Fatigue (Tiredness)</mat-list-item>
+                        <mat-list-item> Lorem ipsum dolor sit.</mat-list-item>
+                        <mat-list-item>Increased Hunger</mat-list-item>
+
+                    </mat-list>
+                </mat-card-content>
             </mat-card-content>
         </mat-card-content>
     </mat-card-content>
-</mat-card-content>
 </section>
 <!-- end -->
 <section #aditionalChecklist>
-<mat-card class="ad_test_component">
-    <mat-card-content class="contaner">
-        <mat-card-content class="ins_content">
-            <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
-            <mat-card-title class="aditional_test">ADDITIONAL TESTING OPPORTUNITIES
-            </mat-card-title>
-            <p class="paragraph">THE DATA VALIDATED MARKERS FOR MEDICAL NECESSITY FOUND IN OUR DIAGNOSTIC CENTER
-                REPORTING PLATFORM LEAD THE FOLLOWING EXAMS AND STUDIES
-            </p>
+    <mat-card class="ad_test_component">
+        <mat-card-content class="contaner">
+            <mat-card-content class="ins_content">
+                <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
+                <mat-card-title class="aditional_test">ADDITIONAL TESTING OPPORTUNITIES
+                </mat-card-title>
+                <p class="paragraph">THE DATA VALIDATED MARKERS FOR MEDICAL NECESSITY FOUND IN OUR DIAGNOSTIC CENTER
+                    REPORTING PLATFORM LEAD THE FOLLOWING EXAMS AND STUDIES
+                </p>
 
-            <mat-card-content class="list_content">
-                <mat-list>
-                    <span class="section_divider">
-                        <mat-list-item>MRI</mat-list-item>
-                        <mat-list-item>CT Scan</mat-list-item>
-                        <mat-list-item>Ultrasound / Vascular Studies</mat-list-item>
-                        <mat-list-item>Advanced ECG</mat-list-item>
-                        <mat-list-item>Chest X-Ray</mat-list-item>
-                        <mat-list-item>EMG</mat-list-item>
-                        <mat-list-item>EEG</mat-list-item>
-                        <mat-list-item>NCS</mat-list-item>
-                        <mat-list-item>Thermoregulatory Sweat Tests</mat-list-item>
-                    </span>
-                    <span class="section_divider">
+                <mat-card-content class="list_content">
+                    <mat-list>
+                        <span class="section_divider">
+                            <mat-list-item>MRI</mat-list-item>
+                            <mat-list-item>CT Scan</mat-list-item>
+                            <mat-list-item>Ultrasound / Vascular Studies</mat-list-item>
+                            <mat-list-item>Advanced ECG</mat-list-item>
+                            <mat-list-item>Chest X-Ray</mat-list-item>
+                            <mat-list-item>EMG</mat-list-item>
+                            <mat-list-item>EEG</mat-list-item>
+                            <mat-list-item>NCS</mat-list-item>
+                            <mat-list-item>Thermoregulatory Sweat Tests</mat-list-item>
+                        </span>
+                        <span class="section_divider">
 
-                        <mat-list-item>Small Fiber Neuropathy Testing</mat-list-item>
-                        <mat-list-item>Glucose Tolerance Testing</mat-list-item>
-                        <mat-list-item>Blood Tests</mat-list-item>
-                        <mat-list-item>A1C</mat-list-item>
-                        <mat-list-item>Angiography</mat-list-item>
-                        <mat-list-item>Stress Tests</mat-list-item>
-                        <mat-list-item>Holter Monitor</mat-list-item>
-                        <mat-list-item>Bone Scan</mat-list-item>
-                    </span>
+                            <mat-list-item>Small Fiber Neuropathy Testing</mat-list-item>
+                            <mat-list-item>Glucose Tolerance Testing</mat-list-item>
+                            <mat-list-item>Blood Tests</mat-list-item>
+                            <mat-list-item>A1C</mat-list-item>
+                            <mat-list-item>Angiography</mat-list-item>
+                            <mat-list-item>Stress Tests</mat-list-item>
+                            <mat-list-item>Holter Monitor</mat-list-item>
+                            <mat-list-item>Bone Scan</mat-list-item>
+                        </span>
 
-                </mat-list>
+                    </mat-list>
+                </mat-card-content>
+                <p class="down_p">
+                    THIS RECORD IS DISPLAYED IN OUR REPORTING SYSTEM SHOWING YOU EVERYTHING YOU NEED TO ORDER MANY OF
+                    OUR
+                    OTHER EXAMS AND SERVICES IMMEDIATELY.
+
+                </p>
             </mat-card-content>
-            <p class="down_p">
-                THIS RECORD IS DISPLAYED IN OUR REPORTING SYSTEM SHOWING YOU EVERYTHING YOU NEED TO ORDER MANY OF OUR
-                OTHER EXAMS AND SERVICES IMMEDIATELY.
-
-            </p>
         </mat-card-content>
-    </mat-card-content>
-</mat-card>
+    </mat-card>
 </section>
 
 <!-- start additional testing opportunity -->
 <section #peceWorks>
-<mat-card class="adi_test_wrapper">
-    <img class="stetho_with" src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/stecho_withDoctor.png">
-    <mat-card-content class="in_wrappr">
-        <mat-card-content class="content_wr">
-            <mat-card-content class="addit_wrapper">
-                <span class="button_wrapper">
+    <mat-card class="adi_test_wrapper">
+        <img class="stetho_with"
+            src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/stecho_withDoctor.png">
+        <mat-card-content class="in_wrappr">
+            <mat-card-content class="content_wr">
+                <mat-card-content class="addit_wrapper">
+                    <span class="button_wrapper">
+                        <button mat-button class="signup_button" (click)="scrollToElement(target)">Signup Now</button>
+                    </span>
+
+                    <span class="content_right">
+                        <mat-card-title class="headerBGmain">ADDITIONAL TESTING OPPORTUNITIES</mat-card-title>
+                        <p>Doctors, You Can Manage Your Doctor’s Office From Your Account On The PECE Virtual Program.
+                            Your
+                            Doctor’s Office Will Book Appointments For Your Patients With The MedTechs At The
+                            Diagnostic Center For The RM-3A Testing Using Available Booking Slots.
+                        </p>
+                        <img
+                            src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/peceCalenderView.jpg">
+                    </span>
+                </mat-card-content>
+
+                <mat-toolbar class="rm_3a_wr">
+                    <span>Once The RM-3A Test Is Complete, The MedTech Will Upload The Test Report <br> On The PECE
+                        Software, Where You Can Also View Them.
+                    </span>
                     <button mat-button class="signup_button" (click)="scrollToElement(target)">Signup Now</button>
-                </span>
-
-                <span class="content_right">
-                    <mat-card-title class="headerBGmain">ADDITIONAL TESTING OPPORTUNITIES</mat-card-title>
-                    <p>Doctors, You Can Manage Your Doctor’s Office From Your Account On The PECE Virtual Program. Your
-                        Doctor’s Office Will Book Appointments For Your Patients With The MedTechs At The
-                        Diagnostic Center For The RM-3A Testing Using Available Booking Slots.
-                    </p>
-                    <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/peceCalenderView.jpg">
-                </span>
+                </mat-toolbar>
             </mat-card-content>
-
-            <mat-toolbar class="rm_3a_wr">
-                <span>Once The RM-3A Test Is Complete, The MedTech Will Upload The Test Report <br> On The PECE
-                    Software, Where You Can Also View Them.
-                </span>
-                <button mat-button class="signup_button" (click)="scrollToElement(target)">Signup Now</button>
-            </mat-toolbar>
         </mat-card-content>
-    </mat-card-content>
-</mat-card>
+    </mat-card>
 </section>
 <section #sampleReport>
-<mat-card class="images_wrapper">
-    <mat-card-content class="inner_wraper">
-        <span class="top_h_wr">
-            <span class="headerBGmain">
-                HERE ARE SOME OF THE VIEWS THAT ARE AVAILABLE IN THE 7-PAGE REPORT THAT
-                IS DOWNLOADABLE IMMEDIATELY FROM OUR EASY-TO-ACCESS VIRTUAL
-                PLATFORM. YOU WILL BE ABLE TO VIEW THE RESULTS OF THE TEST AS WELL AS
-                REVIEW THE ENCOUNTER FORM CRITERIA TO ASSIST IN THE DIAGNOSIS AND
-                TREATMENT OF YOUR PATIENTS.
+    <mat-card class="images_wrapper">
+        <mat-card-content class="inner_wraper">
+            <span class="top_h_wr">
+                <span class="headerBGmain">
+                    HERE ARE SOME OF THE VIEWS THAT ARE AVAILABLE IN THE 7-PAGE REPORT THAT
+                    IS DOWNLOADABLE IMMEDIATELY FROM OUR EASY-TO-ACCESS VIRTUAL
+                    PLATFORM. YOU WILL BE ABLE TO VIEW THE RESULTS OF THE TEST AS WELL AS
+                    REVIEW THE ENCOUNTER FORM CRITERIA TO ASSIST IN THE DIAGNOSIS AND
+                    TREATMENT OF YOUR PATIENTS.
 
+                </span>
             </span>
-        </span>
 
-        <mat-card-content class="inner_tp_wr">
-            <span class="style_header">
-                click on images for larger view
-            </span>
-            <mat-card-content class="img_wrapper">
-                <mat-card-content class="img_item" *ngFor="let item of reportView">
-                    <img src='{{item.images}}' (click)="viewMore(item)">
+            <mat-card-content class="inner_tp_wr">
+                <span class="style_header">
+                    click on images for larger view
+                </span>
+                <mat-card-content class="img_wrapper">
+                    <mat-card-content class="img_item" *ngFor="let item of reportView">
+                        <img src='{{item.images}}' (click)="viewMore(item)">
+                    </mat-card-content>
                 </mat-card-content>
             </mat-card-content>
+            <mat-toolbar class="sign">
+                <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
+            </mat-toolbar>
         </mat-card-content>
-        <mat-toolbar class="sign">
-            <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
-        </mat-toolbar>
-    </mat-card-content>
-</mat-card>
+    </mat-card>
 </section>
 <!-- end -->
 <section #physicianTaxonomy>
-<mat-card class="wewlcm_wrapper">
-    <mat-card-content class="w_inner_wrapper">
-        <span class="headerBGmain">We welcome requests from Ordering
-            Physicians in the following Taxonomies.
-        </span>
+    <mat-card class="wewlcm_wrapper">
+        <mat-card-content class="w_inner_wrapper">
+            <span class="headerBGmain">We welcome requests from Ordering
+                Physicians in the following Taxonomies.
+            </span>
 
-        <mat-card-content class="img_btn">
-            <mat-card-content class="list_wr">
-                <mat-list>
-                    <span class="inner_wr">
-                        <mat-list-item>Family Medicine</mat-list-item>
-                        <mat-list-item>General Practice</mat-list-item>
-                        <mat-list-item>Primary Care</mat-list-item>
-                        <mat-list-item>Cardiology</mat-list-item>
-                        <mat-list-item>Internal Medicine</mat-list-item>
-                        <mat-list-item>Endocrinology</mat-list-item>
-                    </span>
-                    <span class="inner_wr">
-                        <mat-list-item>D.O. (Doctor of Osteopathy) </mat-list-item>
-                        <mat-list-item>Pain Management (Integrated Practice)</mat-list-item>
-                        <mat-list-item>OB-GYN </mat-list-item>
-                        <mat-list-item>Multi-Specialty Group </mat-list-item>
-                        <mat-list-item>Orthopedic Surgeon (that provides long-term patient care) </mat-list-item>
-                        <mat-list-item> Pain Management Group with MD of proper taxonomy</mat-list-item>
+            <mat-card-content class="img_btn">
+                <mat-card-content class="list_wr">
+                    <mat-list>
+                        <span class="inner_wr">
+                            <mat-list-item>Family Medicine</mat-list-item>
+                            <mat-list-item>General Practice</mat-list-item>
+                            <mat-list-item>Primary Care</mat-list-item>
+                            <mat-list-item>Cardiology</mat-list-item>
+                            <mat-list-item>Internal Medicine</mat-list-item>
+                            <mat-list-item>Endocrinology</mat-list-item>
+                        </span>
+                        <span class="inner_wr">
+                            <mat-list-item>D.O. (Doctor of Osteopathy) </mat-list-item>
+                            <mat-list-item>Pain Management (Integrated Practice)</mat-list-item>
+                            <mat-list-item>OB-GYN </mat-list-item>
+                            <mat-list-item>Multi-Specialty Group </mat-list-item>
+                            <mat-list-item>Orthopedic Surgeon (that provides long-term patient care) </mat-list-item>
+                            <mat-list-item> Pain Management Group with MD of proper taxonomy</mat-list-item>
 
-                    </span>
-                </mat-list>
+                        </span>
+                    </mat-list>
+                </mat-card-content>
+                <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
             </mat-card-content>
-            <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
+            <span class="headerBGmain bottom_desc">Discussion on the RM-3A test with
+                Dr. Samah Mohiuddin
+            </span>
         </mat-card-content>
-        <span class="headerBGmain bottom_desc">Discussion on the RM-3A test with
-            Dr. Samah Mohiuddin
-        </span>
-    </mat-card-content>
-</mat-card>
+    </mat-card>
 </section>
 
 <!-- mahiuddin video -->
 <section #doctorRecomendation>
-<mat-card-content class="large_video_wrapper">
-    <mat-card-content class="inner_er_video">
-        <mat-card-content class="video_qr">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FwzuWiNv408" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </mat-card-content>
-
-        <mat-card-content class="video_content_wrapper">
-            <mat-card-content class="inner_content">
-                <p>“Cardio-autonomic neuropathy and small fiber neuropathy diagnosis cannot be made with routine
-                    laboratory tests and clinical examination alone. Both conditions can lead to a change in
-                    management depending on what symptoms the patient has and what diagnosis is concluded. For example,
-                    patients with cardiovagal impairment can be advised to use compression stockings, or
-                    fludrocortisone for more severe cases, and or midodrine can be used. A skin biopsy can be avoided
-                    for patients with a small fiber neuropathy diagnosis with this test.
-                    Autonomic system testing is considered investigational in situations when criteria are not met.
-                    These situations include (but are not limited to) the evaluation of conditions like Chronic fatigue
-                    syndrome, fibromyalgia, sleep apnea, hypertension, etc.
-                </p>
-                <mat-toolbar>
-                    <span class="image_wrapper">
-                        <img src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/mahiuddin.png">
-                    </span>
-                    <mat-card-title>
-                        I do believe this combination test provides patients useful information and guidance to the
-                        overall improvement of their health.” - Dr. Samah Mohiuddin.
-                    </mat-card-title>
-                </mat-toolbar>
-                <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
+    <mat-card-content class="large_video_wrapper">
+        <mat-card-content class="inner_er_video">
+            <mat-card-content class="video_qr">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FwzuWiNv408" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </mat-card-content>
-        </mat-card-content>
 
-        <app-footer></app-footer>
+            <mat-card-content class="video_content_wrapper">
+                <mat-card-content class="inner_content">
+                    <p>“Cardio-autonomic neuropathy and small fiber neuropathy diagnosis cannot be made with routine
+                        laboratory tests and clinical examination alone. Both conditions can lead to a change in
+                        management depending on what symptoms the patient has and what diagnosis is concluded. For
+                        example,
+                        patients with cardiovagal impairment can be advised to use compression stockings, or
+                        fludrocortisone for more severe cases, and or midodrine can be used. A skin biopsy can be
+                        avoided
+                        for patients with a small fiber neuropathy diagnosis with this test.
+                        Autonomic system testing is considered investigational in situations when criteria are not met.
+                        These situations include (but are not limited to) the evaluation of conditions like Chronic
+                        fatigue
+                        syndrome, fibromyalgia, sleep apnea, hypertension, etc.
+                    </p>
+                    <mat-toolbar>
+                        <span class="image_wrapper">
+                            <img
+                                src="https://all-frontend-assets.s3.amazonaws.com/pece-doctor-signup/assets/images/mahiuddin.png">
+                        </span>
+                        <mat-card-title>
+                            I do believe this combination test provides patients useful information and guidance to the
+                            overall improvement of their health.” - Dr. Samah Mohiuddin.
+                        </mat-card-title>
+                    </mat-toolbar>
+                    <button class="signup_button" (click)="scrollToElement(target)" mat-button>Signup now</button>
+                </mat-card-content>
+            </mat-card-content>
+
+            <app-footer></app-footer>
+        </mat-card-content>
     </mat-card-content>
-</mat-card-content>
 </section>
