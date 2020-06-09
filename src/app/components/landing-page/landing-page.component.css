@@ -375,7 +375,7 @@ width: 100%; max-width: 120px; height: 120px; border: 5px solid #fff; box-sizing
 .fr_wrpr .inner_wrapper .l_er .in_right .subtitle { line-height: 40px; font-size: 34px; }
 .fr_wrpr .inner_wrapper .l_er .arrow_bg { padding: 23px 60px; font-size: 26px; line-height: 30px; }
 .fr_wrpr .inner_wrapper .r_er .m_form button { font-size: 42px; padding: 14px 10px; }
-.video_gallery .in_video_wrp_r .video_desc_title { font-size: 22px; }
+.video_gallery .in_video_wrp_r .video_desc_title { font-size: 25px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(1)::after { width: 155px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(2)::after { width: 155px; }
 .high_pre_wrapper .inner_wr .diagrme .diagram_content .items:nth-child(3)::after { width: 145px; }

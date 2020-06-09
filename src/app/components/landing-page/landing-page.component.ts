@@ -130,7 +130,8 @@ export class LandingPageComponent implements OnInit {
             data: { 
               header: "Successfully Submitted !!", 
               message: "Thank you for your interest. We will contact you soon."
-            }
+            },
+            panelClass:'successModal'
           });
 
           dialogRef.afterClosed().subscribe(result => {
@@ -143,7 +144,8 @@ export class LandingPageComponent implements OnInit {
             data: { 
               header: "Sorry !!", 
               message: response.message 
-            }
+            },
+            panelClass:'successModal'
           });
 
           dialogRef.afterClosed().subscribe(result => {
