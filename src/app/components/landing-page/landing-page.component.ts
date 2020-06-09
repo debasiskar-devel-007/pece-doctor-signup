@@ -81,8 +81,8 @@ export class LandingPageComponent implements OnInit {
       "status":           [0, [] ],
       "password":         ['', [ Validators.required, Validators.minLength(6), Validators.maxLength(20) ]],
       "confirmpassword":  ['', [ Validators.required ]],
-      "parent_id":        [this.userId, [] ],
-      "parent_type":      [this.parentType, []],
+      "parent_id":        ['', [] ],
+      "parent_type":      ['', []],
       "cpt_validate_amount": [12, []]
     },
     { validators: this.matchpassword('password', 'confirmpassword') });
@@ -123,6 +123,9 @@ export class LandingPageComponent implements OnInit {
         "source": "data_pece",
         "data": this.doctorSignUpForm.value
       };
+
+      postData.data.parent_id = this.userId;
+      postData.data.parent_type = this.parentType;
 
       this.apiService.httpViaPost('https://trtss4n5ff.execute-api.us-east-1.amazonaws.com/dev/api1/add-doctorsignup-data', postData).subscribe((response: any) => {
         if (response.status == "success") {
