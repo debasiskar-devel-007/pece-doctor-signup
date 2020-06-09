@@ -80,14 +80,24 @@
 .fr_wrpr .inner_wrapper .r_er .m_form .mat-form-field-appearance-legacy .mat-form-field-label {
 color: #000; } 
 
-.fr_wrpr .inner_wrapper .r_er .m_form .mat-form-field-appearance-legacy .mat-form-field-infix {
-    padding: 0px 0 20px;
-}
+.fr_wrpr .inner_wrapper .r_er .m_form .mat-form-field-appearance-legacy .mat-form-field-infix { padding: 0px 0 20px; }
 .fr_wrpr .inner_wrapper .r_er .m_form .mat-error { margin-top: -2px; font-size: 12px;}
 .mat-dialog-container { padding: 16px!important;}
+.successModal .mat-dialog-container{ padding: 0px!important; }
 
-.failed-snackbar{ background: #ff2200!important; color: #fff!important; font-family: 'RalewayBold';  box-shadow: none!important;}
-.success-snackbar{  background: #0cc004!important; color: #fff!important; font-family: 'RalewayBold';  box-shadow: none!important;}
+.modalBg { padding: 0!important; width: 426px; background: #ecf6fb!important;}
+.modalBg .titleTag{    background: linear-gradient(45deg, #fb780d, #f16600);
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'RalewayBold';
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
 
-.success-snackbar .mat-simple-snackbar-action button,
-.failed-snackbar .mat-simple-snackbar-action button { color: #fff!important;}
+.modalBg .mat-typography{ margin: 0; padding: 16px 16px 0; font-family: 'RobotoBlack'; }
+.modalBg .mat-typography h3{ font-family: 'MontserratBold'; font-size: 18px; text-align: center; }
+.modalBg .mat-dialog-actions{min-height: inherit; padding: 10px;}
+.modalBg .mat-dialog-actions button{ font-family: 'RalewayBold'; background: linear-gradient(45deg, #decc00, #ff9001);
+ color: #ffffff;}
+    
